@@ -8,7 +8,9 @@ import { PERIODS, PERIOD_LABELS, type CategoryId, type Period, type UniversePayl
 import DetailPanel from "./DetailPanel";
 import Legend from "./Legend";
 import RepoList from "./RepoList";
+import Logo from "./Logo";
 import SpaceCanvas, { type SpaceApi } from "./SpaceCanvas";
+import SpaceBackdrop, { type BackdropApi } from "./space/SpaceBackdrop";
 
 export type View = "space" | "list";
 
@@ -38,6 +40,7 @@ function useNow(): number | null {
 }
 
 export interface InitialState {
+  categories?: CategoryId[];
   view?: View;
   query?: string;
   repo?: string | null;
@@ -50,11 +53,13 @@ export default function UniverseApp({ initial, initialState = {} }: { initial: U
   const [failed, setFailed] = useState<Period | null>(null);
   const [view, setView] = useState<View>(initialState.view ?? "space");
   const [query, setQuery] = useState(initialState.query ?? "");
-  const [categories, setCategories] = useState<Set<CategoryId>>(new Set());
+  const [categories, setCategories] = useState<Set<CategoryId>>(new Set(initialState.categories ?? []));
   const [language, setLanguage] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(initialState.repo ?? null);
   const now = useNow();
   const spaceRef = useRef<SpaceApi>(null);
+  const backdropRef = useRef<BackdropApi>(null);
+  const onCamera = useCallback((x: number, y: number) => backdropRef.current?.setCamera(x, y), []);
   const reducedMotion = useMedia("(prefers-reduced-motion: reduce)");
   const isMobile = useMedia("(max-width: 760px)");
 
@@ -65,9 +70,10 @@ export default function UniverseApp({ initial, initialState = {} }: { initial: U
     if (view === "list") sp.set("view", "list");
     if (query) sp.set("q", query);
     if (selectedId) sp.set("repo", selectedId);
+    if (categories.size) sp.set("cat", [...categories].join(","));
     const qs = sp.toString();
     window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
-  }, [period, view, query, selectedId]);
+  }, [period, view, query, selectedId, categories]);
 
   // load period data from our cached API (never from GitHub directly)
   const needsFetch = !data[period] && failed !== period;
@@ -145,17 +151,12 @@ export default function UniverseApp({ initial, initialState = {} }: { initial: U
 
   return (
     <div className={`app view-${view}${selected ? " has-panel" : ""}`}>
+      <SpaceBackdrop apiRef={backdropRef} animate={!reducedMotion} className="app-backdrop" />
       <header className="topbar">
         <div className="brand">
-          <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
-            <circle cx="14" cy="14" r="6" fill="#b28cff" />
-            <ellipse cx="14" cy="14" rx="12.5" ry="4.5" fill="none" stroke="#5ea8ff" strokeWidth="1.6" transform="rotate(-20 14 14)" />
-            <circle cx="24" cy="8" r="1.6" fill="#ffe066" />
-          </svg>
-          <div>
-            <h1>GitHub Universe</h1>
-            <p className="tagline">Was auf GitHub gerade abhebt – live erkundbar</p>
-          </div>
+          <Logo />
+          <span className="brand-sep" aria-hidden="true" />
+          <h1 className="brand-title">Explorer</h1>
         </div>
 
         <div className="controls">
@@ -261,6 +262,7 @@ export default function UniverseApp({ initial, initialState = {} }: { initial: U
               onSelect={select}
               reducedMotion={reducedMotion}
               rightInset={panelInset}
+              onCamera={onCamera}
             />
             <div className="zoom-ctrl" style={{ right: panelInset + 16 }}>
               <button type="button" className="icon-btn" onClick={() => spaceRef.current?.zoomBy(1.4)} aria-label="Hineinzoomen">

@@ -8,7 +8,12 @@ Aktuell trendende GitHub-Repositories als erkundbares Weltall. Die Seite richtet
 | Planetengröße | Stars gesamt (logarithmisch) |
 | Leuchten | Star-Wachstum im gewählten Zeitraum (24 h / 7 Tage / 30 Tage) |
 
-Funktionen:
+Aufbau:
+
+- **`/` Landingpage:** Echtzeit-WebGL-Weltall mit prozeduralem Nebel, Milchstraßenband, Sternen in mehreren Parallax-Ebenen und einem Planeten mit Atmosphäre, dazu die aktuellen Aufsteiger, Kennzahlen und die neun Galaxien.
+- **`/explore` Explorer:** die interaktive Karte. Planeten und Galaxie-Nebel sind prozedural schattierte Sprites (Wolkenbänder, Tag-Nacht-Grenze, Atmosphärensaum), der WebGL-Hintergrund folgt dem Verschieben mit Parallax.
+
+Funktionen im Explorer:
 
 - **Weltall-Ansicht:** Zoom und Pan per Maus, Trackpad und Touch. Beim Hovern erscheinen Name und Kurzinfo.
 - **Listen-Ansicht:** sortierbar nach Stars, Wachstum und Name.
@@ -19,7 +24,7 @@ Funktionen:
   - eine Vertrauens-Ampel
   - einen kopierbaren Install-Befehl
   - Links zu Codespaces, GitHub und der Website
-- **Teilbare URLs:** zum Beispiel `?period=24h&view=list&repo=ollama/ollama`.
+- **Teilbare URLs:** zum Beispiel `/explore?period=24h&view=list&repo=ollama/ollama` oder `/explore?cat=ai`.
 
 ## Architektur
 
@@ -145,10 +150,14 @@ Baut `data/fallback.json` neu, auf Basis von `data/fallback-seed.json`.
 ## Projektstruktur
 
 ```
-src/app/page.tsx                  Einstieg (liest Snapshot, Zustand aus URL)
+src/app/page.tsx                  Landingpage (statisch, aus dem Snapshot, 5 min revalidiert)
+src/app/explore/page.tsx          Explorer (liest Snapshot, Zustand aus URL)
 src/app/api/universe/route.ts     GET /api/universe?period=…
 src/app/api/cron/refresh/route.ts Stündlicher Refresh (CRON_SECRET-geschützt)
 src/components/                   UniverseApp, SpaceCanvas (Canvas + d3-zoom), RepoList, DetailPanel, Legend
+src/components/space/             SpaceBackdrop (WebGL-Weltall)
+src/components/landing/           Bausteine der Landingpage
+src/lib/sprites.ts                Prozedurale Planeten- und Nebel-Sprites
 src/lib/server/                   pipeline, github (GraphQL), enrich (Claude), registry, store (Blob/Datei), universe
 src/lib/                          types, categories, growth, install, trust, select, layout, format
 data/fallback.json                Statischer Fallback-Snapshot

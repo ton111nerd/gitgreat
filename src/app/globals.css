@@ -1,17 +1,17 @@
 :root {
   --bg: #05060f;
   --bg-2: #0b0e22;
-  --surface: rgba(16, 20, 44, 0.82);
-  --surface-solid: #10142c;
-  --surface-2: rgba(28, 34, 70, 0.7);
-  --border: rgba(150, 165, 255, 0.16);
-  --border-strong: rgba(170, 185, 255, 0.3);
+  --surface: rgba(12, 14, 28, 0.66);
+  --surface-solid: #0c0e1c;
+  --surface-2: rgba(255, 255, 255, 0.045);
+  --border: rgba(255, 255, 255, 0.09);
+  --border-strong: rgba(255, 255, 255, 0.16);
   --text: #e9ecff;
   --text-2: #aab2d6;
   --muted: #7f88b3;
   --accent: #8fd3ff;
-  --primary: #7c6bff;
-  --primary-2: #9a8cff;
+  --primary: #6f7dff;
+  --primary-2: #a9b6ff;
   --good: #4ade80;
   --warn: #facc15;
   --bad: #f87171;
@@ -32,14 +32,12 @@ body {
 }
 
 body {
-  background: radial-gradient(ellipse at 30% 20%, #141a44 0%, transparent 55%),
-    radial-gradient(ellipse at 80% 90%, #2a1240 0%, transparent 50%), var(--bg);
+  background: #03040a;
   color: var(--text);
   font-family: var(--font-sans);
   font-size: 15px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  overflow: hidden;
 }
 
 button,
@@ -86,6 +84,33 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: #03040a;
+}
+.app > :not(.app-backdrop) {
+  position: relative;
+  z-index: 1;
+}
+.app-backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: block;
+  background: radial-gradient(ellipse 80% 60% at 70% 30%, #1a1446 0%, transparent 60%), radial-gradient(ellipse 60% 50% at 20% 80%, #0b2a3d 0%, transparent 60%), #03040a;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  font-size: 15px;
+  white-space: nowrap;
 }
 
 .topbar {
@@ -93,8 +118,9 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 14px 20px 8px;
+  padding: 12px 20px 8px;
   flex-wrap: wrap;
+  background: linear-gradient(180deg, rgba(3, 4, 10, 0.8), rgba(3, 4, 10, 0.35));
 }
 
 .brand {
@@ -102,16 +128,17 @@ a {
   align-items: center;
   gap: 12px;
 }
-.brand h1 {
-  margin: 0;
-  font-size: 19px;
-  font-weight: 650;
-  letter-spacing: -0.01em;
+.brand-sep {
+  width: 1px;
+  height: 18px;
+  background: var(--border-strong);
 }
-.tagline {
+.brand-title {
   margin: 0;
+  font-size: 15px;
+  font-weight: 500;
   color: var(--text-2);
-  font-size: 13px;
+  letter-spacing: -0.01em;
 }
 
 .controls {
@@ -142,9 +169,9 @@ a {
   color: var(--text);
 }
 .seg button.on {
-  background: linear-gradient(135deg, var(--primary), #4f7dff);
-  color: #fff;
-  box-shadow: 0 2px 12px rgba(124, 107, 255, 0.45);
+  background: #f1f3fa;
+  color: #07080f;
+  box-shadow: 0 2px 14px -2px rgba(169, 182, 255, 0.45);
 }
 
 .updated {
@@ -271,7 +298,7 @@ a {
   flex: 1 1 auto;
   min-height: 0;
   overflow: hidden;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 .space {
   position: absolute;
@@ -417,6 +444,8 @@ a {
   inset: 0;
   overflow: auto;
   padding: 0 20px 150px;
+  background: rgba(3, 4, 10, 0.72);
+  backdrop-filter: blur(6px);
 }
 .repo-table {
   width: 100%;
@@ -540,7 +569,7 @@ th.num .sort-btn {
   width: 400px;
   overflow-y: auto;
   overscroll-behavior: contain;
-  background: rgba(12, 15, 36, 0.96);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01)), rgba(8, 10, 22, 0.9);
   border: 1px solid var(--border-strong);
   border-radius: 18px;
   padding: 18px 20px 24px;
@@ -586,8 +615,8 @@ th.num .sort-btn {
   font-weight: 600;
 }
 .plain {
-  background: linear-gradient(135deg, rgba(124, 107, 255, 0.14), rgba(94, 168, 255, 0.08));
-  border: 1px solid rgba(124, 107, 255, 0.28);
+  background: linear-gradient(135deg, rgba(169, 182, 255, 0.1), rgba(94, 168, 255, 0.04));
+  border: 1px solid rgba(169, 182, 255, 0.2);
   border-radius: var(--radius);
   padding: 12px 14px;
 }
@@ -756,9 +785,9 @@ th.num .sort-btn {
   border-color: var(--accent);
 }
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary), #4f7dff);
+  background: #f1f3fa;
   border-color: transparent;
-  color: #fff;
+  color: #07080f;
 }
 .btn-primary:hover {
   filter: brightness(1.1);
