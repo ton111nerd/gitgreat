@@ -1,0 +1,4734 @@
+{
+ "version": 1,
+ "generatedAt": "2026-11-07T21:57:16.633Z",
+ "source": "fallback",
+ "repos": [
+  {
+   "id": "codecrafters-io/build-your-own-x",
+   "url": "https://github.com/codecrafters-io/build-your-own-x",
+   "homepage": "https://codecrafters.io",
+   "description": "Master programming by recreating your favorite technologies from scratch.",
+   "language": "Markdown",
+   "license": null,
+   "stars": 560778,
+   "forks": 52472,
+   "createdAt": "2018-05-09T12:03:18Z",
+   "pushedAt": "2026-07-14T19:25:58Z",
+   "topics": [
+    "awesome-list",
+    "free",
+    "programming",
+    "tutorial-code",
+    "tutorial-exercises",
+    "tutorials"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Eine Sammlung von Anleitungen, um bekannte Technologien wie Datenbanken oder Git selbst nachzubauen. Vergleichbar mit Bastelanleitungen für Programmierer.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.488Z"
+   }
+  },
+  {
+   "id": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
+   "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+   "description": "A collective list of free APIs",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 496997,
+   "forks": 55546,
+   "createdAt": "2016-03-20T23:49:42Z",
+   "pushedAt": "2026-11-07T19:45:54Z",
+   "topics": [
+    "api",
+    "apis",
+    "dataset",
+    "development",
+    "free",
+    "list",
+    "lists",
+    "open-source",
+    "public",
+    "public-api",
+    "public-apis",
+    "resources",
+    "software"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Eine große Liste kostenloser Programmierschnittstellen für eigene Projekte. Vergleichbar mit einem Branchenbuch für Datenquellen.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.430Z"
+   }
+  },
+  {
+   "id": "freeCodeCamp/freeCodeCamp",
+   "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+   "homepage": "https://contribute.freecodecamp.org",
+   "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+   "language": "TypeScript",
+   "license": "BSD-3-Clause",
+   "stars": 458717,
+   "forks": 48140,
+   "createdAt": "2014-12-24T17:49:19Z",
+   "pushedAt": "2026-11-06T18:01:25Z",
+   "topics": [
+    "careers",
+    "certification",
+    "community",
+    "curriculum",
+    "d3",
+    "education",
+    "freecodecamp",
+    "javascript",
+    "learn-to-code",
+    "math",
+    "nodejs",
+    "nonprofits",
+    "programming",
+    "react",
+    "teachers"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Eine kostenlose Lernplattform, auf der Millionen Menschen Programmieren lernen. Vergleichbar mit einer Online-Schule für Code.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.360Z"
+   }
+  },
+  {
+   "id": "react/react",
+   "url": "https://github.com/react/react",
+   "homepage": "https://react.dev",
+   "description": "The library for web and native user interfaces.",
+   "language": "JavaScript",
+   "license": "MIT",
+   "stars": 252363,
+   "forks": 51925,
+   "createdAt": "2013-05-24T16:15:54Z",
+   "pushedAt": "2026-11-07T02:19:03Z",
+   "topics": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Die bekannteste Bibliothek, um interaktive Benutzeroberflächen im Web zu bauen. Vergleichbar mit Bausteinen, aus denen Facebook, Netflix und Co. ihre Seiten bauen.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.784Z"
+   }
+  },
+  {
+   "id": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "homepage": "https://n8n.io",
+   "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+   "language": "TypeScript",
+   "license": "NOASSERTION",
+   "stars": 209770,
+   "forks": 61395,
+   "createdAt": "2019-06-22T09:24:21Z",
+   "pushedAt": "2026-11-07T21:50:11Z",
+   "topics": [
+    "ai",
+    "apis",
+    "automation",
+    "cli",
+    "data-flow",
+    "development",
+    "integration-framework",
+    "integrations",
+    "ipaas",
+    "low-code",
+    "low-code-platform",
+    "mcp",
+    "mcp-client",
+    "mcp-server",
+    "n8n"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Werkzeug, um Arbeitsabläufe zwischen Apps und KI per Drag-and-drop zu automatisieren. Vergleichbar mit Zapier, aber selbst betreibbar.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.384Z"
+   }
+  },
+  {
+   "id": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "homepage": "https://firecrawl.dev",
+   "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+   "language": "TypeScript",
+   "license": "AGPL-3.0",
+   "stars": 199503,
+   "forks": 10499,
+   "createdAt": "2024-04-15T21:02:29Z",
+   "pushedAt": "2026-11-07T21:39:34Z",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "ai-crawler",
+    "ai-scraping",
+    "ai-search",
+    "crawler",
+    "data-extraction",
+    "html-to-markdown",
+    "llm",
+    "markdown",
+    "scraper",
+    "scraping",
+    "web-crawler",
+    "web-data",
+    "web-data-extraction"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Dienst, der ganze Websites einliest und in sauberen Text für KI-Anwendungen verwandelt. Vergleichbar mit einem Staubsauger für Webinhalte.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.879Z"
+   }
+  },
+  {
+   "id": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "homepage": "https://code.visualstudio.com",
+   "description": "Visual Studio Code",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 195140,
+   "forks": 44439,
+   "createdAt": "2015-09-03T20:23:38Z",
+   "pushedAt": "2026-11-07T21:00:51Z",
+   "topics": [
+    "editor",
+    "electron",
+    "microsoft",
+    "typescript",
+    "visual-studio-code"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Der weltweit meistgenutzte Code-Editor, kostenlos von Microsoft. Vergleichbar mit Microsoft Word, nur für Programmcode.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.917Z"
+   }
+  },
+  {
+   "id": "microsoft/markitdown",
+   "url": "https://github.com/microsoft/markitdown",
+   "homepage": null,
+   "description": "Python tool for converting files and office documents to Markdown.",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 194320,
+   "forks": 14623,
+   "createdAt": "2024-11-13T19:56:40Z",
+   "pushedAt": "2026-11-07T00:14:01Z",
+   "topics": [
+    "autogen",
+    "autogen-extension",
+    "langchain",
+    "markdown",
+    "microsoft-office",
+    "openai",
+    "pdf"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Werkzeug, das Word-, PDF- oder Excel-Dateien in einfachen Text umwandelt, den KI-Modelle gut lesen können. Vergleichbar mit einem Universal-Übersetzer für Dokumentformate.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t markitdown https://github.com/microsoft/markitdown.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.796Z"
+   }
+  },
+  {
+   "id": "Significant-Gravitas/AutoGPT",
+   "url": "https://github.com/Significant-Gravitas/AutoGPT",
+   "homepage": "https://agpt.co",
+   "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+   "language": "Python",
+   "license": "NOASSERTION",
+   "stars": 187934,
+   "forks": 45899,
+   "createdAt": "2023-03-16T09:21:07Z",
+   "pushedAt": "2026-11-07T18:00:54Z",
+   "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "artificial-intelligence",
+    "autonomous-agents",
+    "claude",
+    "gpt",
+    "llama-api",
+    "llm",
+    "openai",
+    "python"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Plattform, um KI-Agenten zu bauen, die längere Aufgaben selbstständig abarbeiten. Vergleichbar mit einem Autopiloten für Computerarbeit.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.813Z"
+   }
+  },
+  {
+   "id": "ollama/ollama",
+   "url": "https://github.com/ollama/ollama",
+   "homepage": "https://ollama.com",
+   "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 186276,
+   "forks": 18953,
+   "createdAt": "2023-06-26T19:39:32Z",
+   "pushedAt": "2026-11-07T02:44:07Z",
+   "topics": [
+    "deepseek",
+    "gemma",
+    "glm",
+    "go",
+    "golang",
+    "gpt-oss",
+    "llama",
+    "llm",
+    "llms",
+    "minimax",
+    "mistral",
+    "muse",
+    "ollama",
+    "qwen"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Programm, mit dem man KI-Sprachmodelle direkt auf dem eigenen Computer laufen lässt – ohne Cloud. Vergleichbar mit einem lokalen ChatGPT zum Selbstbetreiben.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/ollama/ollama@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:12.011Z"
+   }
+  },
+  {
+   "id": "flutter/flutter",
+   "url": "https://github.com/flutter/flutter",
+   "homepage": "https://flutter.dev",
+   "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+   "language": "Dart",
+   "license": "BSD-3-Clause",
+   "stars": 181086,
+   "forks": 32816,
+   "createdAt": "2015-03-06T22:54:58Z",
+   "pushedAt": "2026-11-07T07:42:27Z",
+   "topics": [
+    "android",
+    "app-framework",
+    "cross-platform",
+    "dart",
+    "dart-platform",
+    "desktop",
+    "flutter",
+    "flutter-package",
+    "fuchsia",
+    "ios",
+    "linux-desktop",
+    "macos",
+    "material-design",
+    "mobile",
+    "mobile-development"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "mobile",
+    "explanation": "Googles Framework, um mit einem Code Apps für iPhone, Android, Web und Desktop zu bauen. Vergleichbar mit einer Form, die gleich mehrere Kuchen backt.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.070Z"
+   }
+  },
+  {
+   "id": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "homepage": "https://huggingface.co/transformers",
+   "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "stars": 168631,
+   "forks": 35136,
+   "createdAt": "2018-10-29T13:56:00Z",
+   "pushedAt": "2026-11-07T20:57:03Z",
+   "topics": [
+    "audio",
+    "deep-learning",
+    "deepseek",
+    "gemma",
+    "glm",
+    "hacktoberfest",
+    "llm",
+    "machine-learning",
+    "model-hub",
+    "natural-language-processing",
+    "nlp",
+    "pretrained-models",
+    "python",
+    "pytorch",
+    "pytorch-transformers"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Die Standard-Bibliothek, um tausende vortrainierte KI-Modelle für Text, Bild und Ton zu nutzen. Vergleichbar mit einem App Store für KI-Modelle.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install transformers",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:12.256Z"
+   }
+  },
+  {
+   "id": "AUTOMATIC1111/stable-diffusion-webui",
+   "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+   "homepage": null,
+   "description": "Stable Diffusion web UI",
+   "language": "Python",
+   "license": "AGPL-3.0",
+   "stars": 165253,
+   "forks": 31885,
+   "createdAt": "2022-08-22T14:05:26Z",
+   "pushedAt": "2026-03-02T07:00:53Z",
+   "topics": [
+    "ai",
+    "ai-art",
+    "deep-learning",
+    "diffusion",
+    "gradio",
+    "image-generation",
+    "image2image",
+    "img2img",
+    "pytorch",
+    "stable-diffusion",
+    "text2image",
+    "torch",
+    "txt2img",
+    "unstable",
+    "upscaling"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine beliebte Weboberfläche, um mit Stable Diffusion Bilder aus Text zu erzeugen. Vergleichbar mit einem Fotostudio, das auf Zuruf malt.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install git+https://github.com/AUTOMATIC1111/stable-diffusion-webui.git",
+     "manifest": "pyproject.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.547Z"
+   }
+  },
+  {
+   "id": "langgenius/dify",
+   "url": "https://github.com/langgenius/dify",
+   "homepage": "https://dify.ai",
+   "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+   "language": "Python",
+   "license": "NOASSERTION",
+   "stars": 160628,
+   "forks": 25418,
+   "createdAt": "2023-04-12T07:40:24Z",
+   "pushedAt": "2026-11-07T14:55:47Z",
+   "topics": [
+    "agent",
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-workflow",
+    "ai",
+    "automation",
+    "claude",
+    "deepseek",
+    "genai",
+    "gpt",
+    "llm",
+    "low-code",
+    "mcp",
+    "nextjs",
+    "no-code"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Plattform, auf der Teams KI-Apps und Chatbots per Klick statt per Code bauen. Vergleichbar mit einem Website-Baukasten, nur für KI-Anwendungen.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.069Z"
+   }
+  },
+  {
+   "id": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "homepage": "https://openwebui.com",
+   "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+   "language": "Svelte",
+   "license": "NOASSERTION",
+   "stars": 158028,
+   "forks": 22972,
+   "createdAt": "2023-10-06T22:08:27Z",
+   "pushedAt": "2026-11-07T17:05:55Z",
+   "topics": [
+    "ai",
+    "llm",
+    "llm-ui",
+    "llm-webui",
+    "llms",
+    "mcp",
+    "ollama",
+    "ollama-webui",
+    "open-webui",
+    "openai",
+    "openapi",
+    "rag",
+    "self-hosted",
+    "ui",
+    "webui"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Chat-Oberfläche für KI-Modelle, die man selbst betreibt. Vergleichbar mit der ChatGPT-Webseite, aber auf dem eigenen Server.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t open-webui https://github.com/open-webui/open-webui.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.018Z"
+   }
+  },
+  {
+   "id": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "homepage": "https://code.claude.com/docs/en/overview",
+   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "language": "TypeScript",
+   "license": null,
+   "stars": 154908,
+   "forks": 25599,
+   "createdAt": "2025-02-22T17:41:21Z",
+   "pushedAt": "2026-11-06T17:04:01Z",
+   "topics": [],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein KI-Programmierassistent, der im Terminal Code liest, schreibt und Aufgaben selbstständig erledigt. Vergleichbar mit einem erfahrenen Kollegen, der direkt im Projekt mitarbeitet.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.203Z"
+   }
+  },
+  {
+   "id": "langchain-ai/langchain",
+   "url": "https://github.com/langchain-ai/langchain",
+   "homepage": "https://docs.langchain.com/langchain/",
+   "description": "The agent engineering platform.",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 149175,
+   "forks": 25090,
+   "createdAt": "2022-10-17T02:58:36Z",
+   "pushedAt": "2026-11-07T09:18:20Z",
+   "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "deepagents",
+    "enterprise",
+    "framework",
+    "gemini",
+    "generative-ai",
+    "langchain",
+    "langgraph",
+    "llm",
+    "multiagent",
+    "open-source"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Baukasten für Entwickler, um Anwendungen mit KI-Sprachmodellen zusammenzustecken. Vergleichbar mit Lego-Steinen für Chatbots und KI-Assistenten.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.024Z"
+   }
+  },
+  {
+   "id": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "homepage": "https://www.comfy.org/",
+   "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "language": "Python",
+   "license": "GPL-3.0",
+   "stars": 145588,
+   "forks": 17326,
+   "createdAt": "2023-01-17T03:15:56Z",
+   "pushedAt": "2026-11-07T13:56:50Z",
+   "topics": [
+    "ai",
+    "comfy",
+    "comfyui",
+    "python",
+    "pytorch",
+    "stable-diffusion"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Oberfläche, in der man KI-Bildgenerierung aus Bausteinen zusammenklickt. Vergleichbar mit Midjourney, aber lokal und bis ins Detail steuerbar.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install git+https://github.com/Comfy-Org/ComfyUI.git",
+     "manifest": "pyproject.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.530Z"
+   }
+  },
+  {
+   "id": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "homepage": "https://nextjs.org",
+   "description": "The React Framework",
+   "language": "JavaScript",
+   "license": "MIT",
+   "stars": 143383,
+   "forks": 33551,
+   "createdAt": "2016-10-05T23:32:51Z",
+   "pushedAt": "2026-11-07T21:14:21Z",
+   "topics": [
+    "blog",
+    "browser",
+    "compiler",
+    "components",
+    "hybrid",
+    "nextjs",
+    "node",
+    "react",
+    "server-rendering",
+    "ssg",
+    "static",
+    "static-site-generator",
+    "universal",
+    "vercel"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein Framework, mit dem man schnelle Websites und Web-Apps auf Basis von React baut. Vergleichbar mit einem Fertighaus-Bausatz für Websites.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.614Z"
+   }
+  },
+  {
+   "id": "excalidraw/excalidraw",
+   "url": "https://github.com/excalidraw/excalidraw",
+   "homepage": "https://excalidraw.com",
+   "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 135295,
+   "forks": 16045,
+   "createdAt": "2020-01-02T01:04:43Z",
+   "pushedAt": "2026-11-07T07:35:37Z",
+   "topics": [
+    "canvas",
+    "collaboration",
+    "diagrams",
+    "drawing",
+    "hacktoberfest",
+    "productivity",
+    "whiteboard"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Ein virtuelles Whiteboard für Skizzen im Handzeichnungs-Stil, auch gemeinsam in Echtzeit. Vergleichbar mit einer digitalen Tafel für Teams.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t excalidraw https://github.com/excalidraw/excalidraw.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:16.134Z"
+   }
+  },
+  {
+   "id": "ggml-org/llama.cpp",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "homepage": "https://llama.app",
+   "description": "LLM inference in C/C++",
+   "language": "C++",
+   "license": "MIT",
+   "stars": 133665,
+   "forks": 25243,
+   "createdAt": "2023-03-10T18:58:00Z",
+   "pushedAt": "2026-11-07T21:10:33Z",
+   "topics": [
+    "ggml"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine schlanke Software, die große Sprachmodelle auch auf normalen Laptops und Handys ausführt. Vergleichbar mit einem Motor, der KI ohne teure Spezialhardware antreibt.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:11.993Z"
+   }
+  },
+  {
+   "id": "openai/codex",
+   "url": "https://github.com/openai/codex",
+   "homepage": null,
+   "description": "Lightweight coding agent that runs in your terminal",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 133585,
+   "forks": 21179,
+   "createdAt": "2025-04-13T05:37:54Z",
+   "pushedAt": "2026-11-07T21:45:03Z",
+   "topics": [],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein KI-Coding-Agent für die Kommandozeile, der Code versteht und ändert. Vergleichbar mit einem Programmierpartner im Terminal.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.211Z"
+   }
+  },
+  {
+   "id": "kubernetes/kubernetes",
+   "url": "https://github.com/kubernetes/kubernetes",
+   "homepage": "https://kubernetes.io",
+   "description": "Production-Grade Container Scheduling and Management",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 128898,
+   "forks": 45755,
+   "createdAt": "2014-06-06T22:56:04Z",
+   "pushedAt": "2026-11-07T19:25:38Z",
+   "topics": [
+    "cncf",
+    "containers",
+    "go",
+    "kubernetes"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Das Standardsystem, um viele Anwendungs-Container in der Cloud automatisch zu verteilen und am Laufen zu halten. Vergleichbar mit einem Fluglotsen für Server.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get k8s.io/kubernetes@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.431Z"
+   }
+  },
+  {
+   "id": "rustdesk/rustdesk",
+   "url": "https://github.com/rustdesk/rustdesk",
+   "homepage": "https://rustdesk.com",
+   "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+   "language": "Rust",
+   "license": "AGPL-3.0",
+   "stars": 128558,
+   "forks": 20426,
+   "createdAt": "2020-09-28T15:36:08Z",
+   "pushedAt": "2026-11-07T03:00:14Z",
+   "topics": [
+    "android",
+    "anydesk",
+    "dart",
+    "flatpak",
+    "flutter",
+    "flutter-apps",
+    "ios",
+    "linux",
+    "macos",
+    "p2p",
+    "rdp",
+    "remote-control",
+    "remote-desktop",
+    "rust",
+    "rust-lang"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Eine Fernwartungs-Software, um andere Computer per Internet zu steuern, auch über eigene Server. Vergleichbar mit TeamViewer als Open Source.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/rustdesk/rustdesk rustdesk",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:16.633Z"
+   }
+  },
+  {
+   "id": "shadcn-ui/ui",
+   "url": "https://github.com/shadcn-ui/ui",
+   "homepage": "https://ui.shadcn.com",
+   "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 127577,
+   "forks": 12005,
+   "createdAt": "2023-01-04T12:43:27Z",
+   "pushedAt": "2026-11-07T06:02:26Z",
+   "topics": [
+    "ai",
+    "base-ui",
+    "components",
+    "gen-ui",
+    "generative-ai",
+    "generative-ui",
+    "laravel",
+    "nextjs",
+    "radix-ui",
+    "react",
+    "react-aria",
+    "react-aria-components",
+    "shadcn",
+    "tailwindcss",
+    "tanstack"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Eine Sammlung schön gestalteter Bausteine wie Buttons und Dialoge, die man in eigene Web-Apps kopiert. Vergleichbar mit einer Designvorlage zum Mitnehmen.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.873Z"
+   }
+  },
+  {
+   "id": "react/react-native",
+   "url": "https://github.com/react/react-native",
+   "homepage": "https://reactnative.dev",
+   "description": "A framework for building native applications using React",
+   "language": "C++",
+   "license": "MIT",
+   "stars": 126871,
+   "forks": 25485,
+   "createdAt": "2015-01-09T18:10:16Z",
+   "pushedAt": "2026-11-07T21:33:10Z",
+   "topics": [
+    "android",
+    "app-framework",
+    "cross-platform",
+    "ios",
+    "mobile",
+    "mobile-development",
+    "react",
+    "react-native"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "mobile",
+    "explanation": "Ein Framework, um echte Smartphone-Apps mit JavaScript und React zu entwickeln. Vergleichbar mit React, nur für iPhone und Android.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.243Z"
+   }
+  },
+  {
+   "id": "nodejs/node",
+   "url": "https://github.com/nodejs/node",
+   "homepage": "https://nodejs.org",
+   "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+   "language": "JavaScript",
+   "license": "NOASSERTION",
+   "stars": 123403,
+   "forks": 38746,
+   "createdAt": "2014-11-26T19:57:11Z",
+   "pushedAt": "2026-11-07T18:36:42Z",
+   "topics": [
+    "javascript",
+    "js",
+    "linux",
+    "macos",
+    "mit",
+    "node",
+    "nodejs",
+    "runtime",
+    "windows"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Die Laufzeitumgebung, mit der JavaScript auch auf Servern läuft – Basis unzähliger Web-Apps. Vergleichbar mit dem Motor unter der Haube vieler Websites.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.679Z"
+   }
+  },
+  {
+   "id": "browser-use/browser-use",
+   "url": "https://github.com/browser-use/browser-use",
+   "homepage": "https://browser-use.com",
+   "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 120261,
+   "forks": 13425,
+   "createdAt": "2024-10-31T16:00:56Z",
+   "pushedAt": "2026-11-07T19:00:05Z",
+   "topics": [
+    "ai-agents",
+    "ai-tools",
+    "browser-agent",
+    "browser-automation",
+    "browser-use",
+    "cdp",
+    "cloud-browser",
+    "computer-use",
+    "headless-browser",
+    "llm",
+    "mcp",
+    "playwright",
+    "python",
+    "remote-browser",
+    "stealth-browser"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Bibliothek, mit der KI-Agenten selbstständig Websites bedienen – klicken, tippen, Formulare ausfüllen. Vergleichbar mit einem Roboter, der für dich im Browser surft.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install browser-use",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:12.480Z"
+   }
+  },
+  {
+   "id": "godotengine/godot",
+   "url": "https://github.com/godotengine/godot",
+   "homepage": "https://godotengine.org",
+   "description": "Godot Engine – Multi-platform 2D and 3D game engine",
+   "language": "C++",
+   "license": "MIT",
+   "stars": 119744,
+   "forks": 27400,
+   "createdAt": "2014-01-04T16:05:36Z",
+   "pushedAt": "2026-11-07T11:39:36Z",
+   "topics": [
+    "game-development",
+    "game-engine",
+    "gamedev",
+    "godot",
+    "godotengine",
+    "multi-platform",
+    "open-source"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Eine kostenlose Spiele-Engine, um 2D- und 3D-Spiele für viele Plattformen zu entwickeln. Vergleichbar mit Unity, aber komplett Open Source.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.942Z"
+   }
+  },
+  {
+   "id": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "homepage": "https://immich.app",
+   "description": "High performance self-hosted photo and video management solution.",
+   "language": "TypeScript",
+   "license": "AGPL-3.0",
+   "stars": 118467,
+   "forks": 7521,
+   "createdAt": "2022-02-03T15:56:27Z",
+   "pushedAt": "2026-11-07T09:51:33Z",
+   "topics": [
+    "backup-tool",
+    "flutter",
+    "google-photos",
+    "google-photos-alternative",
+    "javascript",
+    "mobile-app",
+    "nestjs",
+    "nodejs",
+    "photo-gallery",
+    "photos",
+    "photos-management",
+    "self-hosted",
+    "svelte",
+    "sveltekit",
+    "typescript"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Eine selbst betreibbare Foto- und Video-Sicherung mit automatischem Upload vom Handy. Vergleichbar mit Google Fotos auf dem eigenen Server.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.172Z"
+   }
+  },
+  {
+   "id": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "homepage": "https://supabase.com",
+   "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "language": "TypeScript",
+   "license": "Apache-2.0",
+   "stars": 114639,
+   "forks": 15765,
+   "createdAt": "2019-10-12T05:56:49Z",
+   "pushedAt": "2026-11-07T21:49:01Z",
+   "topics": [
+    "ai",
+    "alternative",
+    "auth",
+    "database",
+    "deno",
+    "embeddings",
+    "example",
+    "firebase",
+    "nextjs",
+    "oauth2",
+    "pgvector",
+    "postgis",
+    "postgres",
+    "postgresql",
+    "postgrest"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine Plattform, die Datenbank, Login und Dateispeicher für Apps fertig bereitstellt. Vergleichbar mit Firebase, aber auf Basis von Postgres.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.796Z"
+   }
+  },
+  {
+   "id": "tauri-apps/tauri",
+   "url": "https://github.com/tauri-apps/tauri",
+   "homepage": "https://tauri.app",
+   "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 112594,
+   "forks": 4165,
+   "createdAt": "2019-07-13T09:09:37Z",
+   "pushedAt": "2026-11-06T18:26:25Z",
+   "topics": [
+    "desktop-app",
+    "high-performance",
+    "mobile-app",
+    "native-app",
+    "rust",
+    "web-frontend",
+    "webview"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "mobile",
+    "explanation": "Ein Framework, um kleine, schnelle Desktop- und Mobil-Apps mit Webtechnik zu bauen. Vergleichbar mit Electron, aber deutlich sparsamer.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/tauri-apps/tauri",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:15.338Z"
+   }
+  },
+  {
+   "id": "microsoft/TypeScript",
+   "url": "https://github.com/microsoft/TypeScript",
+   "homepage": "https://www.typescriptlang.org",
+   "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 111860,
+   "forks": 15400,
+   "createdAt": "2014-06-17T15:28:39Z",
+   "pushedAt": "2026-11-07T16:26:31Z",
+   "topics": [
+    "javascript",
+    "language",
+    "typechecker",
+    "typescript"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Eine Programmiersprache, die JavaScript um Typen ergänzt und so Fehler früher sichtbar macht. Vergleichbar mit einem Sicherheitsgurt für Webentwicklung.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.390Z"
+   }
+  },
+  {
+   "id": "denoland/deno",
+   "url": "https://github.com/denoland/deno",
+   "homepage": "https://deno.com",
+   "description": "A modern runtime for JavaScript and TypeScript.",
+   "language": "Rust",
+   "license": "MIT",
+   "stars": 108909,
+   "forks": 6766,
+   "createdAt": "2018-05-15T01:34:26Z",
+   "pushedAt": "2026-10-29T08:03:10Z",
+   "topics": [
+    "deno",
+    "javascript",
+    "rust",
+    "typescript"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Eine moderne, sichere Laufzeitumgebung für JavaScript und TypeScript. Vergleichbar mit Node.js, nur mit strengeren Sicherheitsregeln.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/denoland/deno",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:13.450Z"
+   }
+  },
+  {
+   "id": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "homepage": "https://geminicli.com",
+   "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+   "language": "TypeScript",
+   "license": "Apache-2.0",
+   "stars": 108768,
+   "forks": 14931,
+   "createdAt": "2025-04-17T17:04:31Z",
+   "pushedAt": "2026-11-07T01:10:13Z",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "cli",
+    "gemini",
+    "gemini-api",
+    "mcp-client",
+    "mcp-server"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Kommandozeilen-Werkzeug, das Googles Gemini-KI direkt in die Arbeit von Entwicklern bringt. Vergleichbar mit einem KI-Assistenten im Terminalfenster.",
+    "source": "curated",
+    "install": {
+     "manager": "npm",
+     "command": "npm install -g @google/gemini-cli",
+     "manifest": "package.json",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:12.381Z"
+   }
+  },
+  {
+   "id": "neovim/neovim",
+   "url": "https://github.com/neovim/neovim",
+   "homepage": "https://neovim.io",
+   "description": "Vim-fork focused on extensibility and usability",
+   "language": "Vim Script",
+   "license": "NOASSERTION",
+   "stars": 103482,
+   "forks": 7381,
+   "createdAt": "2014-01-31T13:39:22Z",
+   "pushedAt": "2026-11-07T14:59:58Z",
+   "topics": [
+    "api",
+    "c",
+    "lua",
+    "neovim",
+    "nvim",
+    "text-editor",
+    "vim"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein sehr schneller, per Tastatur gesteuerter Texteditor für Programmierer. Vergleichbar mit einem Profi-Werkzeug, das man ganz ohne Maus bedient.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.934Z"
+   }
+  },
+  {
+   "id": "tailwindlabs/tailwindcss",
+   "url": "https://github.com/tailwindlabs/tailwindcss",
+   "homepage": "https://tailwindcss.com/",
+   "description": "A utility-first CSS framework for rapid UI development.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 98419,
+   "forks": 7102,
+   "createdAt": "2017-10-06T14:59:14Z",
+   "pushedAt": "2026-11-06T14:50:08Z",
+   "topics": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss",
+    "utility-classes"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein Gestaltungs-Werkzeug, mit dem man Websites über kleine Stil-Klassen direkt im HTML designt. Vergleichbar mit einem Baukasten für Farben, Abstände und Layouts.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.857Z"
+   }
+  },
+  {
+   "id": "localsend/localsend",
+   "url": "https://github.com/localsend/localsend",
+   "homepage": "https://localsend.org",
+   "description": "An open-source cross-platform alternative to AirDrop",
+   "language": "Dart",
+   "license": "Apache-2.0",
+   "stars": 97743,
+   "forks": 5564,
+   "createdAt": "2022-12-16T00:46:07Z",
+   "pushedAt": "2026-11-07T20:51:43Z",
+   "topics": [
+    "dart",
+    "file-sharing",
+    "flutter",
+    "flutter-apps"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "mobile",
+    "explanation": "Eine App, um Dateien ohne Internet zwischen Geräten im selben WLAN zu teilen. Vergleichbar mit AirDrop für alle Betriebssysteme.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.366Z"
+   }
+  },
+  {
+   "id": "oven-sh/bun",
+   "url": "https://github.com/oven-sh/bun",
+   "homepage": "https://bun.com",
+   "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+   "language": "Rust",
+   "license": "NOASSERTION",
+   "stars": 96694,
+   "forks": 5272,
+   "createdAt": "2021-04-14T00:48:17Z",
+   "pushedAt": "2026-11-07T21:51:27Z",
+   "topics": [
+    "bun",
+    "bundler",
+    "javascript",
+    "javascriptcore",
+    "jsx",
+    "nodejs",
+    "npm",
+    "react",
+    "rust",
+    "rust-lang",
+    "transpiler",
+    "typescript"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Eine schnelle Laufzeitumgebung für JavaScript, die Paketmanager und Testwerkzeug gleich mitbringt. Vergleichbar mit Node.js, nur als Alles-in-einem-Paket.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/oven-sh/bun",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:13.138Z"
+   }
+  },
+  {
+   "id": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "homepage": "https://vllm.ai",
+   "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "stars": 96526,
+   "forks": 24531,
+   "createdAt": "2023-02-09T11:23:20Z",
+   "pushedAt": "2026-11-07T21:39:30Z",
+   "topics": [
+    "amd",
+    "blackwell",
+    "cuda",
+    "deepseek",
+    "deepseek-v3",
+    "gpt",
+    "gpt-oss",
+    "inference",
+    "kimi",
+    "llama",
+    "llm",
+    "llm-serving",
+    "model-serving",
+    "moe",
+    "openai"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Software, die Sprachmodelle auf Servern besonders schnell und günstig beantworten lässt. Vergleichbar mit einem Turbolader für KI-Rechenzentren.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install vllm",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:12.261Z"
+   }
+  },
+  {
+   "id": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "homepage": "https://zed.dev",
+   "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "language": "Rust",
+   "license": "NOASSERTION",
+   "stars": 94231,
+   "forks": 11550,
+   "createdAt": "2021-02-20T03:01:06Z",
+   "pushedAt": "2026-11-07T21:41:58Z",
+   "topics": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein besonders schneller Code-Editor mit eingebauter Zusammenarbeit und KI. Vergleichbar mit VS Code, nur auf Tempo getrimmt.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/zed-industries/zed",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:13.140Z"
+   }
+  },
+  {
+   "id": "infiniflow/ragflow",
+   "url": "https://github.com/infiniflow/ragflow",
+   "homepage": "https://ragflow.io",
+   "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 93730,
+   "forks": 11253,
+   "createdAt": "2023-12-12T06:13:13Z",
+   "pushedAt": "2026-11-06T13:09:08Z",
+   "topics": [
+    "agent-harness",
+    "agent-native-database",
+    "agentic-ai",
+    "agentic-retrieval",
+    "agentic-search",
+    "ai",
+    "ai-agents",
+    "context-engine",
+    "context-engineering",
+    "context-management",
+    "harness-engineering",
+    "knowledge-compilation",
+    "rag",
+    "retrieval-augmented-generation",
+    "retrieval-harness"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Software, die eigene Dokumente für KI-Chatbots durchsuchbar macht, damit Antworten auf Fakten beruhen. Vergleichbar mit einem Bibliothekar für deine Firmendokumente.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t ragflow https://github.com/infiniflow/ragflow.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.389Z"
+   }
+  },
+  {
+   "id": "home-assistant/core",
+   "url": "https://github.com/home-assistant/core",
+   "homepage": "https://www.home-assistant.io",
+   "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "stars": 92053,
+   "forks": 39225,
+   "createdAt": "2013-09-17T07:29:48Z",
+   "pushedAt": "2026-11-07T21:48:57Z",
+   "topics": [
+    "asyncio",
+    "hacktoberfest",
+    "home-automation",
+    "internet-of-things",
+    "iot",
+    "mqtt",
+    "python",
+    "raspberry-pi"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Eine Plattform, die Geräte im Smart Home herstellerübergreifend steuert und automatisiert. Vergleichbar mit einer Fernbedienung für das ganze Haus.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install homeassistant",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:16.265Z"
+   }
+  },
+  {
+   "id": "modelcontextprotocol/servers",
+   "url": "https://github.com/modelcontextprotocol/servers",
+   "homepage": "https://modelcontextprotocol.io",
+   "description": "Model Context Protocol Reference Servers",
+   "language": "TypeScript",
+   "license": "NOASSERTION",
+   "stars": 91853,
+   "forks": 11926,
+   "createdAt": "2024-11-19T01:10:17Z",
+   "pushedAt": "2026-11-05T06:26:00Z",
+   "topics": [],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Sammlung von Anschlüssen, über die KI-Assistenten auf Dateien, Datenbanken und Dienste zugreifen können. Vergleichbar mit USB-Steckern für KI.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.568Z"
+   }
+  },
+  {
+   "id": "astral-sh/uv",
+   "url": "https://github.com/astral-sh/uv",
+   "homepage": "https://docs.astral.sh/uv",
+   "description": "An extremely fast Python package and project manager, written in Rust.",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 91740,
+   "forks": 3778,
+   "createdAt": "2023-10-02T20:24:11Z",
+   "pushedAt": "2026-11-07T13:26:53Z",
+   "topics": [
+    "packaging",
+    "python",
+    "resolver",
+    "uv"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein extrem schneller Paketmanager für Python, der Bibliotheken in Sekunden installiert. Vergleichbar mit einem Express-Lieferdienst für Programmbausteine.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/astral-sh/uv",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:13.133Z"
+   }
+  },
+  {
+   "id": "syncthing/syncthing",
+   "url": "https://github.com/syncthing/syncthing",
+   "homepage": "https://syncthing.net/",
+   "description": "Open Source Continuous File Synchronization",
+   "language": "Go",
+   "license": "MPL-2.0",
+   "stars": 90198,
+   "forks": 5581,
+   "createdAt": "2013-11-26T09:48:21Z",
+   "pushedAt": "2026-11-05T18:55:51Z",
+   "topics": [
+    "go",
+    "p2p",
+    "peer-to-peer",
+    "synchronization"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Ein Programm, das Ordner direkt zwischen eigenen Geräten synchronisiert – ganz ohne Cloud. Vergleichbar mit Dropbox ohne fremden Server.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/syncthing/syncthing@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:16.543Z"
+   }
+  },
+  {
+   "id": "sveltejs/svelte",
+   "url": "https://github.com/sveltejs/svelte",
+   "homepage": "https://svelte.dev",
+   "description": "web development for the rest of us",
+   "language": "JavaScript",
+   "license": "MIT",
+   "stars": 88663,
+   "forks": 6797,
+   "createdAt": "2016-11-20T18:13:05Z",
+   "pushedAt": "2026-11-07T21:10:12Z",
+   "topics": [
+    "compiler",
+    "template",
+    "ui"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein Framework, das Weboberflächen schon beim Bauen in schlanken Code übersetzt. Vergleichbar mit React, aber mit weniger Ballast im Browser.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.811Z"
+   }
+  },
+  {
+   "id": "lobehub/lobehub",
+   "url": "https://github.com/lobehub/lobehub",
+   "homepage": "https://lobehub.com",
+   "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+   "language": "TypeScript",
+   "license": "NOASSERTION",
+   "stars": 84332,
+   "forks": 16130,
+   "createdAt": "2023-05-21T07:19:12Z",
+   "pushedAt": "2026-11-07T21:27:10Z",
+   "topics": [
+    "agent",
+    "agent-collaboration",
+    "agent-harness",
+    "loop-engineering",
+    "mcp",
+    "personal-assistant",
+    "proactive-agent",
+    "skills",
+    "super-agent",
+    "task-management"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine moderne Chat-App für verschiedene KI-Modelle mit Plugins und Assistenten. Vergleichbar mit ChatGPT, aber offen und selbst hostbar.",
+    "source": "curated",
+    "install": {
+     "manager": "npm",
+     "command": "npm install github:lobehub/lobehub",
+     "manifest": "package.json",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:13.041Z"
+   }
+  },
+  {
+   "id": "junegunn/fzf",
+   "url": "https://github.com/junegunn/fzf",
+   "homepage": "https://junegunn.github.io/fzf/",
+   "description": ":cherry_blossom: A command-line fuzzy finder",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 84059,
+   "forks": 4118,
+   "createdAt": "2013-10-23T16:04:23Z",
+   "pushedAt": "2026-11-07T12:06:19Z",
+   "topics": [
+    "bash",
+    "cli",
+    "fish",
+    "fzf",
+    "go",
+    "neovim",
+    "tmux",
+    "unix",
+    "vim",
+    "zsh"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein Kommandozeilen-Werkzeug, mit dem man Dateien und Befehle blitzschnell per Tippen findet. Vergleichbar mit der Spotlight-Suche, nur im Terminal.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/junegunn/fzf@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:13.283Z"
+   }
+  },
+  {
+   "id": "vitejs/vite",
+   "url": "https://github.com/vitejs/vite",
+   "homepage": "http://vite.dev",
+   "description": "Next generation frontend tooling. It's fast!",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 83864,
+   "forks": 9382,
+   "createdAt": "2020-04-21T05:03:57Z",
+   "pushedAt": "2026-11-06T11:40:02Z",
+   "topics": [
+    "build-tool",
+    "dev-server",
+    "frontend",
+    "hmr",
+    "vite"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein Entwicklungswerkzeug, das Web-Projekte blitzschnell startet und für die Veröffentlichung bündelt. Vergleichbar mit einem Schnellkochtopf für Webentwicklung.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.000Z"
+   }
+  },
+  {
+   "id": "jesseduffield/lazygit",
+   "url": "https://github.com/jesseduffield/lazygit",
+   "homepage": null,
+   "description": "simple terminal UI for git commands",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 83716,
+   "forks": 3246,
+   "createdAt": "2018-05-19T00:53:06Z",
+   "pushedAt": "2026-11-07T19:44:32Z",
+   "topics": [
+    "cli",
+    "git",
+    "terminal"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Eine übersichtliche Terminal-Oberfläche für Git, die Versionsverwaltung einfacher macht. Vergleichbar mit einem Armaturenbrett für Code-Änderungen.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/jesseduffield/lazygit@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:13.215Z"
+   }
+  },
+  {
+   "id": "swisskyrepo/PayloadsAllTheThings",
+   "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+   "homepage": "https://swisskyrepo.github.io/PayloadsAllTheThings/",
+   "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 82463,
+   "forks": 17564,
+   "createdAt": "2016-10-18T07:29:07Z",
+   "pushedAt": "2026-10-30T15:58:03Z",
+   "topics": [
+    "bounty",
+    "bugbounty",
+    "bypass",
+    "cheatsheet",
+    "enumeration",
+    "hacking",
+    "hacktoberfest",
+    "methodology",
+    "payload",
+    "payloads",
+    "penetration-testing",
+    "pentest",
+    "privilege-escalation",
+    "redteam",
+    "security"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Eine umfangreiche Nachschlagesammlung von Angriffsmustern für Sicherheitstests und Pentests. Vergleichbar mit einem Lehrbuch für ethisches Hacken.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.436Z"
+   }
+  },
+  {
+   "id": "hoppscotch/hoppscotch",
+   "url": "https://github.com/hoppscotch/hoppscotch",
+   "homepage": "https://hoppscotch.io",
+   "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 80763,
+   "forks": 6232,
+   "createdAt": "2019-08-21T13:15:24Z",
+   "pushedAt": "2026-11-05T08:16:25Z",
+   "topics": [
+    "api",
+    "api-client",
+    "api-rest",
+    "api-testing",
+    "developer-tools",
+    "graphql",
+    "http",
+    "http-client",
+    "pwa",
+    "rest",
+    "rest-api",
+    "spa",
+    "testing",
+    "testing-tools",
+    "tools"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein Werkzeug im Browser, um Programmierschnittstellen (APIs) zu testen. Vergleichbar mit Postman, aber offen und leichtgewichtig.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.610Z"
+   }
+  },
+  {
+   "id": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "homepage": "https://unsloth.ai/docs",
+   "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "stars": 79156,
+   "forks": 7367,
+   "createdAt": "2023-11-29T16:50:09Z",
+   "pushedAt": "2026-11-07T21:26:48Z",
+   "topics": [
+    "agent",
+    "ai",
+    "chatgpt",
+    "deepseek",
+    "fine-tuning",
+    "gemma",
+    "image-generation",
+    "llama",
+    "llm",
+    "llms",
+    "openai",
+    "python",
+    "qwen",
+    "reinforcement-learning",
+    "self-hosted"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Werkzeug, um KI-Sprachmodelle schneller und mit weniger Grafikspeicher an eigene Daten anzupassen. Vergleichbar mit einer Abkürzung beim Trainieren von KI.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install unsloth",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:12.594Z"
+   }
+  },
+  {
+   "id": "caddyserver/caddy",
+   "url": "https://github.com/caddyserver/caddy",
+   "homepage": "https://caddyserver.com",
+   "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 78870,
+   "forks": 5244,
+   "createdAt": "2015-01-13T19:45:03Z",
+   "pushedAt": "2026-11-07T13:27:01Z",
+   "topics": [
+    "acme",
+    "automatic-https",
+    "caddy",
+    "caddyfile",
+    "go",
+    "golang",
+    "http",
+    "http-server",
+    "http3",
+    "https",
+    "privacy",
+    "reverse-proxy",
+    "security",
+    "tls",
+    "web-server"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Ein Webserver, der Websites automatisch mit HTTPS-Verschlüsselung ausliefert. Vergleichbar mit einem Türsteher, der das Schloss gleich mitbringt.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/caddyserver/caddy/v2@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.658Z"
+   }
+  },
+  {
+   "id": "AppFlowy-IO/AppFlowy",
+   "url": "https://github.com/AppFlowy-IO/AppFlowy",
+   "homepage": "https://appflowy.com",
+   "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+   "language": "Dart",
+   "license": "AGPL-3.0",
+   "stars": 78401,
+   "forks": 6206,
+   "createdAt": "2021-06-16T12:56:48Z",
+   "pushedAt": "2026-11-02T23:40:52Z",
+   "topics": [
+    "blog",
+    "confluence-alternative",
+    "content-management",
+    "content-services",
+    "documentation",
+    "flutter",
+    "note-taking",
+    "notion-alternative",
+    "project-management",
+    "task-management",
+    "team-collaboration",
+    "wiki"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Ein Arbeitsplatz für Notizen, Projekte und Wikis, bei dem die Daten unter eigener Kontrolle bleiben. Vergleichbar mit Notion als Open Source.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.320Z"
+   }
+  },
+  {
+   "id": "grafana/grafana",
+   "url": "https://github.com/grafana/grafana",
+   "homepage": "https://grafana.com",
+   "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+   "language": "TypeScript",
+   "license": "AGPL-3.0",
+   "stars": 77754,
+   "forks": 14938,
+   "createdAt": "2013-12-11T15:59:56Z",
+   "pushedAt": "2026-11-07T21:21:58Z",
+   "topics": [
+    "alerting",
+    "analytics",
+    "business-intelligence",
+    "dashboard",
+    "data-visualization",
+    "elasticsearch",
+    "go",
+    "grafana",
+    "hacktoberfest",
+    "influxdb",
+    "metrics",
+    "monitoring",
+    "mysql",
+    "postgres",
+    "prometheus"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Eine Plattform, die Messwerte von Servern und Apps in übersichtlichen Dashboards darstellt. Vergleichbar mit einem Armaturenbrett für die IT.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t grafana https://github.com/grafana/grafana.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:15.513Z"
+   }
+  },
+  {
+   "id": "redis/redis",
+   "url": "https://github.com/redis/redis",
+   "homepage": "http://redis.io",
+   "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+   "language": "C",
+   "license": "NOASSERTION",
+   "stars": 77286,
+   "forks": 25008,
+   "createdAt": "2009-03-21T22:32:25Z",
+   "pushedAt": "2026-11-07T18:54:56Z",
+   "topics": [
+    "cache",
+    "caching",
+    "database",
+    "distributed-systems",
+    "in-memory",
+    "in-memory-database",
+    "json",
+    "key-value",
+    "key-value-store",
+    "message-broker",
+    "message-queue",
+    "no-sql",
+    "nosql",
+    "open-source",
+    "real-time"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Ein extrem schneller Datenspeicher im Arbeitsspeicher, oft als Zwischenspeicher genutzt. Vergleichbar mit einem Notizzettel, den Apps in Millisekunden lesen.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.132Z"
+   }
+  },
+  {
+   "id": "apache/superset",
+   "url": "https://github.com/apache/superset",
+   "homepage": "https://superset.apache.org/",
+   "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "stars": 75448,
+   "forks": 18595,
+   "createdAt": "2015-07-21T18:55:34Z",
+   "pushedAt": "2026-11-07T20:19:52Z",
+   "topics": [
+    "analytics",
+    "apache",
+    "apache-superset",
+    "asf",
+    "bi",
+    "business-analytics",
+    "business-intelligence",
+    "data-analysis",
+    "data-analytics",
+    "data-engineering",
+    "data-science",
+    "data-visualization",
+    "data-viz",
+    "flask",
+    "python"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine Plattform für Datenvisualisierung und interaktive Dashboards. Vergleichbar mit Tableau, aber Open Source.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install git+https://github.com/apache/superset.git",
+     "manifest": "pyproject.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:14.774Z"
+   }
+  },
+  {
+   "id": "strapi/strapi",
+   "url": "https://github.com/strapi/strapi",
+   "homepage": "https://strapi.io",
+   "description": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+   "language": "TypeScript",
+   "license": "NOASSERTION",
+   "stars": 73443,
+   "forks": 10023,
+   "createdAt": "2015-09-30T15:34:48Z",
+   "pushedAt": "2026-11-07T17:51:24Z",
+   "topics": [
+    "api",
+    "cms",
+    "cms-framework",
+    "content-management",
+    "content-management-system",
+    "customizable",
+    "dashboard",
+    "graphql",
+    "hacktoberfest",
+    "headless-cms",
+    "jamstack",
+    "javascript",
+    "mysql",
+    "no-code",
+    "nodejs"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein Content-Management-System, mit dem Redaktionen Inhalte pflegen, die Entwickler per API ausliefern. Vergleichbar mit WordPress ohne festes Design.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.150Z"
+   }
+  },
+  {
+   "id": "moby/moby",
+   "url": "https://github.com/moby/moby",
+   "homepage": "https://mobyproject.org/",
+   "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 72358,
+   "forks": 19319,
+   "createdAt": "2013-01-18T18:10:57Z",
+   "pushedAt": "2026-11-06T02:17:38Z",
+   "topics": [
+    "containers",
+    "docker",
+    "go",
+    "golang"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Das Open-Source-Fundament von Docker, um Software in portable Container zu packen. Vergleichbar mit Schiffscontainern für Programme.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/moby/moby/v2@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.418Z"
+   }
+  },
+  {
+   "id": "BurntSushi/ripgrep",
+   "url": "https://github.com/BurntSushi/ripgrep",
+   "homepage": null,
+   "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+   "language": "Rust",
+   "license": "Unlicense",
+   "stars": 69877,
+   "forks": 4191,
+   "createdAt": "2016-03-11T02:02:33Z",
+   "pushedAt": "2026-10-27T18:31:31Z",
+   "topics": [
+    "cli",
+    "command-line",
+    "command-line-tool",
+    "gitignore",
+    "grep",
+    "recursively-search",
+    "regex",
+    "ripgrep",
+    "rust",
+    "search"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein sehr schnelles Suchprogramm, das Text in riesigen Code-Ordnern findet. Vergleichbar mit Strg+F für ganze Projekte.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install ripgrep",
+     "manifest": "Cargo.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:13.700Z"
+   }
+  },
+  {
+   "id": "mem0ai/mem0",
+   "url": "https://github.com/mem0ai/mem0",
+   "homepage": "https://mem0.ai",
+   "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "stars": 68576,
+   "forks": 8154,
+   "createdAt": "2023-06-20T08:58:36Z",
+   "pushedAt": "2026-11-06T16:53:07Z",
+   "topics": [
+    "agentic-memory",
+    "agentic-memory-system",
+    "agents",
+    "ai",
+    "ai-agents",
+    "chatgpt",
+    "genai",
+    "llm",
+    "long-term-memory",
+    "memory",
+    "memory-management",
+    "python",
+    "rag",
+    "state-management"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Gedächtnis-Schicht für KI-Assistenten, damit sie sich an frühere Gespräche und Vorlieben erinnern. Vergleichbar mit einem Notizbuch für Chatbots.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install git+https://github.com/mem0ai/mem0.git",
+     "manifest": "pyproject.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.691Z"
+   }
+  },
+  {
+   "id": "Mintplex-Labs/anything-llm",
+   "url": "https://github.com/Mintplex-Labs/anything-llm",
+   "homepage": "https://anythingllm.com",
+   "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+   "language": "JavaScript",
+   "license": "MIT",
+   "stars": 68044,
+   "forks": 7684,
+   "createdAt": "2023-06-04T02:29:14Z",
+   "pushedAt": "2026-11-07T02:20:14Z",
+   "topics": [
+    "agent-computer",
+    "agent-harness",
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-workflow",
+    "ai-agents",
+    "computer-use",
+    "hermes-agent",
+    "llm",
+    "local-ai",
+    "localai",
+    "multimodal",
+    "rag",
+    "self-hosted-ai",
+    "vector-database"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Eine Komplett-App, um mit eigenen Dokumenten per KI zu chatten – lokal oder in der Cloud. Vergleichbar mit einem privaten ChatGPT für die eigenen Unterlagen.",
+    "source": "curated",
+    "install": {
+     "manager": "npm",
+     "command": "npm install github:Mintplex-Labs/anything-llm",
+     "manifest": "package.json",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.733Z"
+   }
+  },
+  {
+   "id": "prometheus/prometheus",
+   "url": "https://github.com/prometheus/prometheus",
+   "homepage": "https://prometheus.io/",
+   "description": "The Prometheus monitoring system and time series database.",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 67424,
+   "forks": 11000,
+   "createdAt": "2012-11-24T11:14:12Z",
+   "pushedAt": "2026-11-07T11:31:25Z",
+   "topics": [
+    "alerting",
+    "graphing",
+    "hacktoberfest",
+    "metrics",
+    "monitoring",
+    "prometheus",
+    "time-series"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Ein Überwachungssystem, das laufend Messwerte sammelt und bei Problemen alarmiert. Vergleichbar mit einem Pulsmesser für Server.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/prometheus/prometheus@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.547Z"
+   }
+  },
+  {
+   "id": "coollabsio/coolify",
+   "url": "https://github.com/coollabsio/coolify",
+   "homepage": "https://coolify.io",
+   "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+   "language": "PHP",
+   "license": "Apache-2.0",
+   "stars": 65756,
+   "forks": 5941,
+   "createdAt": "2021-01-25T20:54:01Z",
+   "pushedAt": "2026-11-07T21:16:21Z",
+   "topics": [
+    "coolify",
+    "databases",
+    "deployment",
+    "docker",
+    "docker-compose",
+    "inertiajs",
+    "laravel",
+    "mariadb",
+    "mysql",
+    "nextjs",
+    "nodejs",
+    "php",
+    "postgres",
+    "redis",
+    "self-hosted"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Eine selbst betreibbare Plattform, um Apps und Datenbanken mit wenigen Klicks auf eigenen Servern zu veröffentlichen. Vergleichbar mit Heroku oder Vercel zum Selbsthosten.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.611Z"
+   }
+  },
+  {
+   "id": "traefik/traefik",
+   "url": "https://github.com/traefik/traefik",
+   "homepage": "https://traefik.io",
+   "description": "The Cloud Native Application Proxy",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 65490,
+   "forks": 6310,
+   "createdAt": "2015-09-13T19:04:02Z",
+   "pushedAt": "2026-11-06T15:58:06Z",
+   "topics": [
+    "consul",
+    "docker",
+    "gateway",
+    "gatewayapi",
+    "go",
+    "golang",
+    "ingress-nginx",
+    "kubernetes",
+    "letsencrypt",
+    "load-balancer",
+    "microservice",
+    "opentelemetry",
+    "reverse-proxy",
+    "traefik"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Ein moderner Verkehrsregler, der Webanfragen automatisch an die richtigen Dienste weiterleitet. Vergleichbar mit einer intelligenten Telefonzentrale.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/traefik/traefik/v3@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.588Z"
+   }
+  },
+  {
+   "id": "localstack/localstack",
+   "url": "https://github.com/localstack/localstack",
+   "homepage": "https://localstack.cloud",
+   "description": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
+   "language": "Python",
+   "license": "NOASSERTION",
+   "stars": 65125,
+   "forks": 4833,
+   "createdAt": "2016-10-25T23:48:03Z",
+   "pushedAt": "2026-03-23T08:52:01Z",
+   "topics": [
+    "aws",
+    "cloud",
+    "continuous-integration",
+    "developer-tools",
+    "localstack",
+    "python",
+    "testing"
+   ],
+   "archived": true,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Ein Werkzeug, das Amazon-Cloud-Dienste auf dem eigenen Rechner nachbildet, um gefahrlos zu testen. Vergleichbar mit einem Flugsimulator für AWS.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install git+https://github.com/localstack/localstack.git",
+     "manifest": "pyproject.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:15.753Z"
+   }
+  },
+  {
+   "id": "karpathy/nanoGPT",
+   "url": "https://github.com/karpathy/nanoGPT",
+   "homepage": null,
+   "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 64536,
+   "forks": 11091,
+   "createdAt": "2022-12-28T00:51:12Z",
+   "pushedAt": "2025-11-12T19:52:34Z",
+   "topics": [],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein sehr kompakter Code, um kleine GPT-Sprachmodelle selbst zu trainieren und zu verstehen. Vergleichbar mit einem Lehrbausatz für KI-Modelle.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.770Z"
+   }
+  },
+  {
+   "id": "withastro/astro",
+   "url": "https://github.com/withastro/astro",
+   "homepage": "https://astro.build",
+   "description": "The web framework for content-driven websites.",
+   "language": "TypeScript",
+   "license": "NOASSERTION",
+   "stars": 63804,
+   "forks": 3916,
+   "createdAt": "2021-03-15T17:19:47Z",
+   "pushedAt": "2026-11-07T16:42:31Z",
+   "topics": [
+    "astro",
+    "blog",
+    "browser",
+    "components",
+    "hybrid",
+    "islands",
+    "node",
+    "server",
+    "static",
+    "static-site-generator",
+    "universal"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein Framework für sehr schnelle, inhaltsreiche Websites wie Blogs und Dokumentationen. Vergleichbar mit einem Turbo für Content-Websites.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.848Z"
+   }
+  },
+  {
+   "id": "microsoft/autogen",
+   "url": "https://github.com/microsoft/autogen",
+   "homepage": "https://microsoft.github.io/autogen/",
+   "description": "A programming framework for agentic AI",
+   "language": "Python",
+   "license": "CC-BY-4.0",
+   "stars": 61738,
+   "forks": 9380,
+   "createdAt": "2023-08-18T11:43:45Z",
+   "pushedAt": "2026-10-28T14:45:27Z",
+   "topics": [
+    "agentic",
+    "agentic-agi",
+    "agents",
+    "ai",
+    "autogen",
+    "autogen-ecosystem",
+    "chatgpt",
+    "framework",
+    "llm-agent",
+    "llm-framework"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Framework von Microsoft, mit dem mehrere KI-Agenten zusammenarbeiten und Aufgaben untereinander verteilen. Vergleichbar mit einem Team aus digitalen Mitarbeitern.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:12.041Z"
+   }
+  },
+  {
+   "id": "sharkdp/bat",
+   "url": "https://github.com/sharkdp/bat",
+   "homepage": null,
+   "description": "A cat(1) clone with wings.",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 61223,
+   "forks": 3070,
+   "createdAt": "2018-04-21T10:52:23Z",
+   "pushedAt": "2026-11-07T03:35:08Z",
+   "topics": [
+    "cli",
+    "command-line",
+    "git",
+    "hacktoberfest",
+    "rust",
+    "syntax-highlighting",
+    "terminal",
+    "tool"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein Programm, das Dateien im Terminal farbig und gut lesbar anzeigt. Vergleichbar mit einem Textmarker für Code.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install bat",
+     "manifest": "Cargo.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:13.668Z"
+   }
+  },
+  {
+   "id": "starship/starship",
+   "url": "https://github.com/starship/starship",
+   "homepage": "https://starship.rs",
+   "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+   "language": "Rust",
+   "license": "ISC",
+   "stars": 60639,
+   "forks": 2838,
+   "createdAt": "2019-04-02T03:23:12Z",
+   "pushedAt": "2026-11-07T14:35:41Z",
+   "topics": [
+    "bash",
+    "fish",
+    "fish-prompt",
+    "fish-theme",
+    "oh-my-zsh",
+    "powershell",
+    "rust",
+    "shell-prompt",
+    "starship",
+    "zsh",
+    "zsh-prompt",
+    "zsh-theme"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Eine schicke, schnelle Eingabezeile für das Terminal, die nützliche Infos auf einen Blick zeigt. Vergleichbar mit einem Cockpit-Display für die Kommandozeile.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install starship",
+     "manifest": "Cargo.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:13.631Z"
+   }
+  },
+  {
+   "id": "crewAIInc/crewAI",
+   "url": "https://github.com/crewAIInc/crewAI",
+   "homepage": "https://crewai.com",
+   "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 60612,
+   "forks": 9090,
+   "createdAt": "2023-10-27T03:26:59Z",
+   "pushedAt": "2026-11-07T21:37:47Z",
+   "topics": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "aiagentframework",
+    "llms"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Werkzeug, um KI-Agenten mit festen Rollen als Team Aufgaben erledigen zu lassen. Vergleichbar mit einer kleinen virtuellen Agentur.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install git+https://github.com/crewAIInc/crewAI.git",
+     "manifest": "pyproject.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:12.161Z"
+   }
+  },
+  {
+   "id": "jellyfin/jellyfin",
+   "url": "https://github.com/jellyfin/jellyfin",
+   "homepage": "https://jellyfin.org",
+   "description": "The Free Software Media System - Server Backend & API",
+   "language": "C#",
+   "license": "GPL-2.0",
+   "stars": 59105,
+   "forks": 5778,
+   "createdAt": "2018-12-09T06:36:45Z",
+   "pushedAt": "2026-11-06T19:12:20Z",
+   "topics": [
+    "csharp",
+    "dotnet",
+    "hacktoberfest",
+    "jellyfin"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Ein Medienserver, um eigene Filme, Serien und Musik auf allen Geräten zu streamen. Vergleichbar mit Netflix für die private Sammlung.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.343Z"
+   }
+  },
+  {
+   "id": "remix-run/react-router",
+   "url": "https://github.com/remix-run/react-router",
+   "homepage": "https://reactrouter.com",
+   "description": "Declarative routing for React",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 56631,
+   "forks": 10961,
+   "createdAt": "2014-05-16T22:22:51Z",
+   "pushedAt": "2026-11-06T16:13:53Z",
+   "topics": [],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Die Standardlösung, um in React-Apps zwischen Seiten zu navigieren. Vergleichbar mit einem Wegweiser-System für Web-Apps.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.956Z"
+   }
+  },
+  {
+   "id": "vuejs/core",
+   "url": "https://github.com/vuejs/core",
+   "homepage": "https://vuejs.org/",
+   "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 54849,
+   "forks": 9282,
+   "createdAt": "2018-06-12T13:49:36Z",
+   "pushedAt": "2026-11-06T14:53:32Z",
+   "topics": [],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein zugängliches Framework, um interaktive Weboberflächen zu entwickeln. Vergleichbar mit React, gilt aber als besonders einsteigerfreundlich.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:13.777Z"
+   }
+  },
+  {
+   "id": "expo/expo",
+   "url": "https://github.com/expo/expo",
+   "homepage": "https://docs.expo.dev",
+   "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 53384,
+   "forks": 14990,
+   "createdAt": "2016-08-15T17:14:25Z",
+   "pushedAt": "2026-11-07T21:10:42Z",
+   "topics": [
+    "android",
+    "app-framework",
+    "expo",
+    "framework",
+    "frontend",
+    "ios",
+    "javascript",
+    "mobile",
+    "native",
+    "native-apps",
+    "react",
+    "react-native",
+    "typescript",
+    "universal",
+    "web"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "mobile",
+    "explanation": "Eine Plattform, die das Bauen und Veröffentlichen von React-Native-Apps stark vereinfacht. Vergleichbar mit einem Komplettservice für App-Entwicklung.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.252Z"
+   }
+  },
+  {
+   "id": "run-llama/llama_index",
+   "url": "https://github.com/run-llama/llama_index",
+   "homepage": "https://developers.llamaindex.ai",
+   "description": "LlamaIndex is the document processing platform for AI",
+   "language": "Python",
+   "license": "MIT",
+   "stars": 52842,
+   "forks": 8533,
+   "createdAt": "2022-11-02T04:24:54Z",
+   "pushedAt": "2026-11-06T22:58:11Z",
+   "topics": [
+    "agents",
+    "application",
+    "data",
+    "fine-tuning",
+    "framework",
+    "llamaindex",
+    "llm",
+    "multi-agents",
+    "rag",
+    "vector-database"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "ai",
+    "explanation": "Ein Framework, das eigene Daten mit Sprachmodellen verbindet, damit die KI darüber Fragen beantworten kann. Vergleichbar mit einem Register, das der KI zeigt, wo was steht.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install llama-index",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:12.529Z"
+   }
+  },
+  {
+   "id": "astral-sh/ruff",
+   "url": "https://github.com/astral-sh/ruff",
+   "homepage": "https://docs.astral.sh/ruff",
+   "description": "An extremely fast Python linter and code formatter, written in Rust.",
+   "language": "Rust",
+   "license": "MIT",
+   "stars": 50952,
+   "forks": 2628,
+   "createdAt": "2022-08-09T17:17:44Z",
+   "pushedAt": "2026-11-07T20:47:39Z",
+   "topics": [
+    "linter",
+    "pep8",
+    "python",
+    "python3",
+    "ruff",
+    "rust",
+    "rustpython",
+    "static-analysis",
+    "static-code-analysis",
+    "style-guide",
+    "styleguide"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein blitzschneller Prüfer, der Python-Code auf Fehler und Stilprobleme untersucht. Vergleichbar mit einer Rechtschreibprüfung für Code.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/astral-sh/ruff",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:13.114Z"
+   }
+  },
+  {
+   "id": "ClickHouse/ClickHouse",
+   "url": "https://github.com/ClickHouse/ClickHouse",
+   "homepage": "https://clickhouse.com",
+   "description": "ClickHouse® is a real-time analytics database management system",
+   "language": "C++",
+   "license": "Apache-2.0",
+   "stars": 50802,
+   "forks": 9235,
+   "createdAt": "2016-06-02T08:28:18Z",
+   "pushedAt": "2026-11-07T21:53:21Z",
+   "topics": [
+    "ai",
+    "analytics",
+    "big-data",
+    "clickhouse",
+    "cloud-native",
+    "cpp",
+    "database",
+    "dbms",
+    "distributed",
+    "embedded",
+    "hacktoberfest",
+    "lakehouse",
+    "mpp",
+    "olap",
+    "rust"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine Datenbank, die Milliarden Zeilen in Sekundenbruchteilen auswertet. Vergleichbar mit einem Hochgeschwindigkeits-Zählwerk für Statistiken.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.748Z"
+   }
+  },
+  {
+   "id": "TanStack/query",
+   "url": "https://github.com/TanStack/query",
+   "homepage": "https://tanstack.com/query",
+   "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 50533,
+   "forks": 4224,
+   "createdAt": "2019-09-10T19:23:58Z",
+   "pushedAt": "2026-11-07T09:44:51Z",
+   "topics": [
+    "async",
+    "cache",
+    "data",
+    "fetch",
+    "graphql",
+    "hooks",
+    "query",
+    "react",
+    "rest",
+    "solid",
+    "stale",
+    "stale-while-revalidate",
+    "svelte",
+    "typescript",
+    "update"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Eine Bibliothek, die das Laden und Zwischenspeichern von Daten in Web-Apps vereinfacht. Vergleichbar mit einem cleveren Lieferdienst für App-Daten.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.048Z"
+   }
+  },
+  {
+   "id": "pandas-dev/pandas",
+   "url": "https://github.com/pandas-dev/pandas",
+   "homepage": "https://pandas.pydata.org",
+   "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+   "language": "Python",
+   "license": "BSD-3-Clause",
+   "stars": 50524,
+   "forks": 20727,
+   "createdAt": "2010-08-24T01:37:33Z",
+   "pushedAt": "2026-11-07T21:00:31Z",
+   "topics": [
+    "alignment",
+    "data-analysis",
+    "data-science",
+    "flexible",
+    "pandas",
+    "python"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Die klassische Python-Bibliothek, um Tabellen zu bearbeiten und Daten zu analysieren. Vergleichbar mit Excel für Programmierer.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install pandas",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.852Z"
+   }
+  },
+  {
+   "id": "metabase/metabase",
+   "url": "https://github.com/metabase/metabase",
+   "homepage": "https://metabase.com",
+   "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+   "language": "Clojure",
+   "license": "NOASSERTION",
+   "stars": 50224,
+   "forks": 6993,
+   "createdAt": "2015-02-02T19:25:47Z",
+   "pushedAt": "2026-11-07T21:48:18Z",
+   "topics": [
+    "analytics",
+    "bi",
+    "business-intelligence",
+    "businessintelligence",
+    "clojure",
+    "dashboard",
+    "data",
+    "data-analysis",
+    "data-visualization",
+    "database",
+    "metabase",
+    "mysql",
+    "postgres",
+    "postgresql",
+    "reporting"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Ein Werkzeug, mit dem auch Nicht-Techniker Fragen an Datenbanken stellen und Dashboards bauen. Vergleichbar mit Google Analytics für eigene Firmendaten.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t metabase https://github.com/metabase/metabase.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:14.666Z"
+   }
+  },
+  {
+   "id": "hashicorp/terraform",
+   "url": "https://github.com/hashicorp/terraform",
+   "homepage": "http://developer.hashicorp.com/terraform",
+   "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+   "language": "Go",
+   "license": "NOASSERTION",
+   "stars": 50164,
+   "forks": 10594,
+   "createdAt": "2014-03-13T22:25:48Z",
+   "pushedAt": "2026-11-06T20:32:08Z",
+   "topics": [
+    "cloud",
+    "cloud-management",
+    "graph",
+    "infrastructure-as-code",
+    "terraform"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Ein Werkzeug, um Cloud-Server und Netzwerke als Code zu beschreiben und automatisch einzurichten. Vergleichbar mit einem Bauplan, aus dem die Cloud sich selbst baut.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/hashicorp/terraform@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.421Z"
+   }
+  },
+  {
+   "id": "bevyengine/bevy",
+   "url": "https://github.com/bevyengine/bevy",
+   "homepage": "https://bevy.org",
+   "description": "A refreshingly simple data-driven game engine built in Rust",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 49605,
+   "forks": 5031,
+   "createdAt": "2020-01-18T21:13:55Z",
+   "pushedAt": "2026-11-07T15:40:55Z",
+   "topics": [
+    "bevy",
+    "game-development",
+    "game-engine",
+    "gamedev",
+    "open-source",
+    "rust"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Eine moderne, datengetriebene Spiele-Engine in der Programmiersprache Rust. Vergleichbar mit einem Baukasten für Spiele mit Fokus auf Tempo.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo add bevy",
+     "manifest": "Cargo.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:16.061Z"
+   }
+  },
+  {
+   "id": "apache/airflow",
+   "url": "https://github.com/apache/airflow",
+   "homepage": "https://airflow.apache.org/",
+   "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+   "language": "Python",
+   "license": "Apache-2.0",
+   "stars": 47414,
+   "forks": 18323,
+   "createdAt": "2015-04-13T18:04:58Z",
+   "pushedAt": "2026-11-07T20:48:34Z",
+   "topics": [
+    "airflow",
+    "apache",
+    "apache-airflow",
+    "automation",
+    "dag",
+    "data-engineering",
+    "data-integration",
+    "data-orchestrator",
+    "data-pipelines",
+    "data-science",
+    "elt",
+    "etl",
+    "machine-learning",
+    "mlops",
+    "orchestration"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine Plattform, um wiederkehrende Datenprozesse zu planen und zu überwachen. Vergleichbar mit einem Fahrplan für Datenflüsse.",
+    "source": "curated",
+    "install": {
+     "manager": "pip",
+     "command": "pip install apache-airflow",
+     "manifest": "pyproject.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.779Z"
+   }
+  },
+  {
+   "id": "cli/cli",
+   "url": "https://github.com/cli/cli",
+   "homepage": "https://cli.github.com",
+   "description": "GitHub’s official command line tool",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 46908,
+   "forks": 9259,
+   "createdAt": "2019-10-03T15:24:53Z",
+   "pushedAt": "2026-11-07T01:48:49Z",
+   "topics": [
+    "cli",
+    "git",
+    "github-api-v4",
+    "golang"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Das offizielle GitHub-Werkzeug für die Kommandozeile, um Pull Requests und Issues ohne Browser zu verwalten. Vergleichbar mit einer GitHub-Fernbedienung.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/cli/cli/v2@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:13.414Z"
+   }
+  },
+  {
+   "id": "milvus-io/milvus",
+   "url": "https://github.com/milvus-io/milvus",
+   "homepage": "https://milvus.io",
+   "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 46611,
+   "forks": 4326,
+   "createdAt": "2019-09-16T06:43:43Z",
+   "pushedAt": "2026-11-07T02:14:00Z",
+   "topics": [
+    "anns",
+    "cloud-native",
+    "diskann",
+    "distributed",
+    "embedding-database",
+    "embedding-similarity",
+    "embedding-store",
+    "faiss",
+    "golang",
+    "hnsw",
+    "image-search",
+    "llm",
+    "nearest-neighbor-search",
+    "rag",
+    "vector-database"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine Datenbank für Milliarden von Vektoren, etwa für Bild- oder KI-Suche. Vergleichbar mit einem Gedächtnis für KI-Anwendungen.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/milvus-io/milvus@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.952Z"
+   }
+  },
+  {
+   "id": "payloadcms/payload",
+   "url": "https://github.com/payloadcms/payload",
+   "homepage": "https://payloadcms.com",
+   "description": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 45722,
+   "forks": 4408,
+   "createdAt": "2021-01-05T18:49:45Z",
+   "pushedAt": "2026-11-07T05:53:10Z",
+   "topics": [
+    "cms",
+    "content-management",
+    "content-management-system",
+    "express",
+    "graphql",
+    "headless",
+    "headless-cms",
+    "jamstack",
+    "javascript",
+    "mit-license",
+    "mongodb",
+    "nextjs",
+    "nodejs",
+    "open-source",
+    "payload"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein CMS und App-Framework auf Basis von Next.js zum Verwalten von Inhalten. Vergleichbar mit WordPress, aber für moderne JavaScript-Teams.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.158Z"
+   }
+  },
+  {
+   "id": "logseq/logseq",
+   "url": "https://github.com/logseq/logseq",
+   "homepage": "https://logseq.com",
+   "description": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV",
+   "language": "Clojure",
+   "license": "AGPL-3.0",
+   "stars": 45509,
+   "forks": 2864,
+   "createdAt": "2020-05-23T00:06:06Z",
+   "pushedAt": "2026-11-07T18:21:39Z",
+   "topics": [
+    "clojure",
+    "clojurescript",
+    "git",
+    "graph",
+    "knowledge-base",
+    "knowledge-graph",
+    "local-first",
+    "markdown",
+    "note-taking",
+    "org-mode",
+    "pkm"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "other",
+    "explanation": "Eine App für vernetzte Notizen und Wissensmanagement, die Daten lokal speichert. Vergleichbar mit Notion oder Obsidian.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t logseq https://github.com/logseq/logseq.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:16.309Z"
+   }
+  },
+  {
+   "id": "duckdb/duckdb",
+   "url": "https://github.com/duckdb/duckdb",
+   "homepage": "http://www.duckdb.org",
+   "description": "DuckDB is a high-performance analytical database system",
+   "language": "C++",
+   "license": "MIT",
+   "stars": 42898,
+   "forks": 4171,
+   "createdAt": "2018-06-26T15:04:45Z",
+   "pushedAt": "2026-11-06T20:55:01Z",
+   "topics": [
+    "analytics",
+    "database",
+    "embedded-database",
+    "olap",
+    "sql"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine schnelle Analyse-Datenbank, die ohne Server direkt in Programmen läuft. Vergleichbar mit Excel-Auswertungen, nur für riesige Datenmengen.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.600Z"
+   }
+  },
+  {
+   "id": "phaserjs/phaser",
+   "url": "https://github.com/phaserjs/phaser",
+   "homepage": "https://phaser.io",
+   "description": "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.",
+   "language": "JavaScript",
+   "license": "MIT",
+   "stars": 40659,
+   "forks": 7184,
+   "createdAt": "2013-04-12T12:27:51Z",
+   "pushedAt": "2026-08-21T06:56:13Z",
+   "topics": [
+    "canvas",
+    "discord-activities",
+    "facebook-instant-games",
+    "game-development",
+    "game-frameworks",
+    "gamedev",
+    "html5-game-development",
+    "javascript",
+    "phaser",
+    "phaser-development",
+    "phaserjs",
+    "webgl",
+    "youtube-playables"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Ein Framework, um 2D-Spiele zu entwickeln, die direkt im Browser laufen. Vergleichbar mit einer Bühne für Browserspiele.",
+    "source": "curated",
+    "install": {
+     "manager": "npm",
+     "command": "npm install phaser",
+     "manifest": "package.json",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:16.184Z"
+   }
+  },
+  {
+   "id": "pola-rs/polars",
+   "url": "https://github.com/pola-rs/polars",
+   "homepage": "https://docs.pola.rs",
+   "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+   "language": "Rust",
+   "license": "MIT",
+   "stars": 40279,
+   "forks": 3228,
+   "createdAt": "2020-05-13T19:45:33Z",
+   "pushedAt": "2026-11-07T11:15:51Z",
+   "topics": [
+    "arrow",
+    "dataframe",
+    "dataframe-library",
+    "dataframes",
+    "out-of-core",
+    "polars",
+    "python",
+    "rust"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine sehr schnelle Bibliothek, um Tabellendaten zu filtern, zu gruppieren und auszuwerten. Vergleichbar mit Pandas, nur deutlich flotter.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/pola-rs/polars",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:14.628Z"
+   }
+  },
+  {
+   "id": "aquasecurity/trivy",
+   "url": "https://github.com/aquasecurity/trivy",
+   "homepage": "https://trivy.dev",
+   "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 39102,
+   "forks": 834,
+   "createdAt": "2019-04-11T01:01:07Z",
+   "pushedAt": "2026-11-06T11:29:59Z",
+   "topics": [
+    "containers",
+    "devsecops",
+    "docker",
+    "go",
+    "golang",
+    "hacktoberfest",
+    "iac",
+    "infrastructure-as-code",
+    "kubernetes",
+    "misconfiguration",
+    "security",
+    "security-tools",
+    "vulnerability",
+    "vulnerability-detection",
+    "vulnerability-scanners"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Ein Werkzeug, das Container, Code und Cloud-Konfigurationen nach Schwachstellen durchsucht. Vergleichbar mit einem Virenscanner für Software-Lieferungen.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/aquasecurity/trivy@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.160Z"
+   }
+  },
+  {
+   "id": "portainer/portainer",
+   "url": "https://github.com/portainer/portainer",
+   "homepage": "https://www.portainer.io",
+   "description": "Making Docker and Kubernetes management easy.",
+   "language": "TypeScript",
+   "license": "Zlib",
+   "stars": 38790,
+   "forks": 2934,
+   "createdAt": "2016-05-19T20:15:28Z",
+   "pushedAt": "2026-11-06T00:57:54Z",
+   "topics": [
+    "docker",
+    "docker-compose",
+    "docker-container",
+    "docker-deployment",
+    "docker-image",
+    "docker-swarm",
+    "docker-ui",
+    "dockerfile",
+    "hacktoberfest",
+    "kubernetes",
+    "moby",
+    "portainer",
+    "ui"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Eine Weboberfläche, um Docker- und Kubernetes-Umgebungen per Klick zu verwalten. Vergleichbar mit einer Fernbedienung für Container.",
+    "source": "curated",
+    "install": {
+     "manager": "npm",
+     "command": "npm install github:portainer/portainer",
+     "manifest": "package.json",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:15.763Z"
+   }
+  },
+  {
+   "id": "keycloak/keycloak",
+   "url": "https://github.com/keycloak/keycloak",
+   "homepage": "https://www.keycloak.org",
+   "description": "Open Source Identity and Access Management For Modern Applications and Services",
+   "language": "Java",
+   "license": "Apache-2.0",
+   "stars": 37746,
+   "forks": 9152,
+   "createdAt": "2013-07-02T13:38:51Z",
+   "pushedAt": "2026-11-07T04:26:15Z",
+   "topics": [
+    "keycloak",
+    "oidc",
+    "saml"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Eine Software für Anmeldung und Benutzerverwaltung, inklusive Single Sign-on. Vergleichbar mit einem Pförtner für alle Firmen-Apps.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.623Z"
+   }
+  },
+  {
+   "id": "hashicorp/vault",
+   "url": "https://github.com/hashicorp/vault",
+   "homepage": "https://developer.hashicorp.com/vault",
+   "description": "A tool for secrets management, encryption as a service, and privileged access management",
+   "language": "Go",
+   "license": "NOASSERTION",
+   "stars": 36479,
+   "forks": 4809,
+   "createdAt": "2015-02-25T00:15:59Z",
+   "pushedAt": "2026-11-07T00:25:59Z",
+   "topics": [
+    "go",
+    "secrets",
+    "vault"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Ein Tresor für Passwörter, Schlüssel und Zertifikate von Anwendungen. Vergleichbar mit einem Bankschließfach für Zugangsdaten.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/hashicorp/vault@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.465Z"
+   }
+  },
+  {
+   "id": "raysan5/raylib",
+   "url": "https://github.com/raysan5/raylib",
+   "homepage": "http://www.raylib.com",
+   "description": "A simple and easy-to-use library to enjoy videogames programming",
+   "language": "C",
+   "license": "Zlib",
+   "stars": 35579,
+   "forks": 3378,
+   "createdAt": "2013-10-24T15:46:04Z",
+   "pushedAt": "2026-11-07T21:06:21Z",
+   "topics": [
+    "android",
+    "c",
+    "embedded",
+    "esp32",
+    "game-development",
+    "game-engine",
+    "gamedev",
+    "graphics",
+    "iot",
+    "linux",
+    "macos",
+    "opengl",
+    "programming",
+    "raspberry-pi",
+    "raylib"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Eine einfache Bibliothek, um Spiele zu programmieren – beliebt zum Lernen und für kleine Projekte. Vergleichbar mit einem Malkasten für Spieleideen.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.874Z"
+   }
+  },
+  {
+   "id": "qdrant/qdrant",
+   "url": "https://github.com/qdrant/qdrant",
+   "homepage": "https://qdrant.tech",
+   "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 35462,
+   "forks": 2803,
+   "createdAt": "2020-05-30T21:37:01Z",
+   "pushedAt": "2026-11-07T16:15:31Z",
+   "topics": [
+    "ai-search",
+    "ai-search-engine",
+    "embeddings-similarity",
+    "hnsw",
+    "hybrid-search",
+    "image-search",
+    "knn-algorithm",
+    "machine-learning",
+    "mlops",
+    "nearest-neighbor-search",
+    "neural-network",
+    "neural-search",
+    "recommender-system",
+    "search",
+    "search-engine"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Eine Vektordatenbank, die Inhalte nach Bedeutung statt nach exakten Wörtern findet – wichtig für KI-Suche. Vergleichbar mit einer Suchmaschine für Ähnlichkeiten.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install qdrant",
+     "manifest": "Cargo.toml",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.064Z"
+   }
+  },
+  {
+   "id": "k3s-io/k3s",
+   "url": "https://github.com/k3s-io/k3s",
+   "homepage": "https://k3s.io",
+   "description": "Lightweight Kubernetes",
+   "language": "Go",
+   "license": "Apache-2.0",
+   "stars": 34352,
+   "forks": 2776,
+   "createdAt": "2018-05-31T01:37:46Z",
+   "pushedAt": "2026-11-07T00:45:22Z",
+   "topics": [
+    "k8s",
+    "kubernetes"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Eine schlanke Kubernetes-Version, die auch auf kleinen Servern oder einem Raspberry Pi läuft. Vergleichbar mit Kubernetes im Taschenformat.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/k3s-io/k3s@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.710Z"
+   }
+  },
+  {
+   "id": "OWASP/CheatSheetSeries",
+   "url": "https://github.com/OWASP/CheatSheetSeries",
+   "homepage": "https://cheatsheetseries.owasp.org",
+   "description": "The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.",
+   "language": "JavaScript",
+   "license": "CC-BY-SA-4.0",
+   "stars": 33934,
+   "forks": 4715,
+   "createdAt": "2018-12-21T14:26:43Z",
+   "pushedAt": "2026-11-05T16:43:10Z",
+   "topics": [
+    "application-security",
+    "appsec",
+    "best-practices",
+    "cheatsheets",
+    "code",
+    "owasp",
+    "security"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Eine Sammlung kompakter Anleitungen, wie man Software sicher entwickelt. Vergleichbar mit Spickzetteln für Sicherheitsfragen.",
+    "source": "curated",
+    "install": {
+     "manager": "npm",
+     "command": "npm install github:OWASP/CheatSheetSeries",
+     "manifest": "package.json",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:14.399Z"
+   }
+  },
+  {
+   "id": "honojs/hono",
+   "url": "https://github.com/honojs/hono",
+   "homepage": "https://hono.dev",
+   "description": "Web framework built on Web Standards",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 32849,
+   "forks": 1465,
+   "createdAt": "2021-12-14T20:05:30Z",
+   "pushedAt": "2026-11-07T11:54:30Z",
+   "topics": [
+    "aws-lambda",
+    "bun",
+    "cloudflare",
+    "cloudflare-workers",
+    "deno",
+    "npm",
+    "router",
+    "typescript",
+    "web-framework"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "web",
+    "explanation": "Ein winziges, schnelles Web-Framework, das auf vielen Cloud-Plattformen läuft. Vergleichbar mit Express, nur leichter und moderner.",
+    "source": "curated",
+    "install": {
+     "manager": "npm",
+     "command": "npm install hono",
+     "manifest": "package.json",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.291Z"
+   }
+  },
+  {
+   "id": "projectdiscovery/nuclei",
+   "url": "https://github.com/projectdiscovery/nuclei",
+   "homepage": "https://docs.projectdiscovery.io/tools/nuclei",
+   "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 32658,
+   "forks": 3979,
+   "createdAt": "2020-04-03T18:47:11Z",
+   "pushedAt": "2026-11-07T19:35:51Z",
+   "topics": [
+    "attack-surface",
+    "cve-scanner",
+    "dast",
+    "hacktoberfest",
+    "nuclei-engine",
+    "security",
+    "security-scanner",
+    "subdomain-takeover",
+    "vulnerability-assessment",
+    "vulnerability-detection",
+    "vulnerability-scanner"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Ein Scanner, der Websites und Server anhand tausender Vorlagen auf bekannte Sicherheitslücken prüft. Vergleichbar mit einem TÜV-Check für Webdienste.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/projectdiscovery/nuclei/v3@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.122Z"
+   }
+  },
+  {
+   "id": "gitleaks/gitleaks",
+   "url": "https://github.com/gitleaks/gitleaks",
+   "homepage": "https://gitleaks.io",
+   "description": "Find secrets with Gitleaks 🔑",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 30759,
+   "forks": 2343,
+   "createdAt": "2018-01-27T18:19:31Z",
+   "pushedAt": "2026-10-28T04:14:29Z",
+   "topics": [
+    "ai-powered",
+    "ci-cd",
+    "cicd",
+    "cli",
+    "data-loss-prevention",
+    "devsecops",
+    "dlp",
+    "git",
+    "gitleaks",
+    "go",
+    "golang",
+    "hacktoberfest",
+    "llm",
+    "llm-inference",
+    "llm-training"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Ein Programm, das Code nach versehentlich veröffentlichten Passwörtern und Schlüsseln durchsucht. Vergleichbar mit einem Metalldetektor für Geheimnisse.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/zricethezav/gitleaks/v8@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.304Z"
+   }
+  },
+  {
+   "id": "opentofu/opentofu",
+   "url": "https://github.com/opentofu/opentofu",
+   "homepage": "https://opentofu.org",
+   "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+   "language": "Go",
+   "license": "MPL-2.0",
+   "stars": 30747,
+   "forks": 1416,
+   "createdAt": "2023-08-16T20:01:36Z",
+   "pushedAt": "2026-11-06T22:13:24Z",
+   "topics": [],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "infra",
+    "explanation": "Eine offene Abspaltung von Terraform, um Cloud-Infrastruktur als Code zu verwalten. Vergleichbar mit Terraform unter Community-Verwaltung.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/opentofu/opentofu@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:15.489Z"
+   }
+  },
+  {
+   "id": "Anuken/Mindustry",
+   "url": "https://github.com/Anuken/Mindustry",
+   "homepage": "https://mindustrygame.github.io",
+   "description": "The automation tower defense RTS",
+   "language": "Java",
+   "license": "GPL-3.0",
+   "stars": 29703,
+   "forks": 3875,
+   "createdAt": "2017-04-30T01:24:29Z",
+   "pushedAt": "2026-11-04T20:39:10Z",
+   "topics": [
+    "android",
+    "desktop",
+    "game",
+    "java",
+    "mindustry",
+    "mobile-game",
+    "multiplatform",
+    "rts",
+    "sandbox-game",
+    "tower-defense"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Ein Open-Source-Strategiespiel, in dem man Fabriken baut und seine Basis verteidigt. Vergleichbar mit einer Mischung aus Factorio und Tower Defense.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.006Z"
+   }
+  },
+  {
+   "id": "trufflesecurity/trufflehog",
+   "url": "https://github.com/trufflesecurity/trufflehog",
+   "homepage": "https://trufflesecurity.com",
+   "description": "Find, verify, and analyze leaked credentials",
+   "language": "Go",
+   "license": "AGPL-3.0",
+   "stars": 28939,
+   "forks": 2695,
+   "createdAt": "2016-12-31T05:08:12Z",
+   "pushedAt": "2026-11-05T17:40:43Z",
+   "topics": [
+    "credentials",
+    "devsecops",
+    "dynamic-analysis",
+    "precommit",
+    "scanning",
+    "secret",
+    "secret-management",
+    "secrets",
+    "security",
+    "security-tools",
+    "trufflehog",
+    "verification"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Ein Werkzeug, das in Code, Chats und Clouds geleakte Zugangsdaten findet und prüft, ob sie noch gültig sind. Vergleichbar mit einem Spürhund für Passwörter.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go install github.com/trufflesecurity/trufflehog/v3@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.304Z"
+   }
+  },
+  {
+   "id": "4ian/GDevelop",
+   "url": "https://github.com/4ian/GDevelop",
+   "homepage": "https://gdevelop.io",
+   "description": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
+   "language": "JavaScript",
+   "license": "NOASSERTION",
+   "stars": 28565,
+   "forks": 1650,
+   "createdAt": "2014-06-29T19:58:38Z",
+   "pushedAt": "2026-11-07T21:13:05Z",
+   "topics": [
+    "2d-game",
+    "2d-game-engine",
+    "3d",
+    "3d-game",
+    "3d-game-engine",
+    "game",
+    "game-development",
+    "game-engine",
+    "gamedev",
+    "gamemaker",
+    "gdevelop",
+    "hacktoberfest",
+    "html5",
+    "html5-game-engine",
+    "javascript"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Eine Spiele-Engine, mit der man Spiele ganz ohne Programmierkenntnisse per Klick erstellt. Vergleichbar mit einem Baukasten für Videospiele.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.013Z"
+   }
+  },
+  {
+   "id": "valkey-io/valkey",
+   "url": "https://github.com/valkey-io/valkey",
+   "homepage": "https://valkey.io",
+   "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+   "language": "C",
+   "license": "BSD-3-Clause",
+   "stars": 27646,
+   "forks": 1519,
+   "createdAt": "2024-03-22T00:42:17Z",
+   "pushedAt": "2026-11-07T16:09:27Z",
+   "topics": [
+    "cache",
+    "database",
+    "key-value",
+    "key-value-store",
+    "nosql",
+    "redis",
+    "valkey",
+    "valkey-client"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Ein schneller Datenspeicher im Arbeitsspeicher, entstanden als offene Abspaltung von Redis. Vergleichbar mit Redis unter Community-Verwaltung.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.950Z"
+   }
+  },
+  {
+   "id": "biomejs/biome",
+   "url": "https://github.com/biomejs/biome",
+   "homepage": "https://biomejs.dev",
+   "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 26055,
+   "forks": 1330,
+   "createdAt": "2023-07-27T20:30:22Z",
+   "pushedAt": "2026-11-07T21:50:40Z",
+   "topics": [
+    "css",
+    "formatter",
+    "javascript",
+    "json",
+    "jsx",
+    "linter",
+    "static-code-analysis",
+    "typescript",
+    "web"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "devtools",
+    "explanation": "Ein schnelles Werkzeug, das Web-Code automatisch formatiert und auf Fehler prüft. Vergleichbar mit einem Lektor für JavaScript.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/biomejs/biome",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:13.175Z"
+   }
+  },
+  {
+   "id": "libgdx/libgdx",
+   "url": "https://github.com/libgdx/libgdx",
+   "homepage": "http://www.libgdx.com/",
+   "description": "Desktop/Android/HTML5/iOS Java game development framework",
+   "language": "Java",
+   "license": "Apache-2.0",
+   "stars": 25507,
+   "forks": 6521,
+   "createdAt": "2012-08-10T19:34:38Z",
+   "pushedAt": "2026-11-03T12:54:10Z",
+   "topics": [
+    "2d",
+    "3d",
+    "android",
+    "cross-platform",
+    "framework",
+    "game",
+    "game-development",
+    "game-engine",
+    "gamedev",
+    "html5",
+    "ios",
+    "java",
+    "libgdx",
+    "linux",
+    "macosx"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Ein bewährtes Java-Framework, um Spiele für Desktop, Android und Web zu entwickeln. Vergleichbar mit einem Werkzeugkasten für Spieleprogrammierer.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.828Z"
+   }
+  },
+  {
+   "id": "FiloSottile/age",
+   "url": "https://github.com/FiloSottile/age",
+   "homepage": "https://age-encryption.org",
+   "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
+   "language": "Go",
+   "license": "BSD-3-Clause",
+   "stars": 24235,
+   "forks": 678,
+   "createdAt": "2019-05-18T20:44:54Z",
+   "pushedAt": "2026-08-29T17:55:36Z",
+   "topics": [
+    "age-encryption",
+    "built-at-rc"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Ein einfaches, modernes Werkzeug zum Verschlüsseln von Dateien. Vergleichbar mit einem digitalen Vorhängeschloss.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get filippo.io/age@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.491Z"
+   }
+  },
+  {
+   "id": "JetBrains/compose-multiplatform",
+   "url": "https://github.com/JetBrains/compose-multiplatform",
+   "homepage": "https://jetbrains.com/lp/compose-multiplatform",
+   "description": "Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.",
+   "language": "Kotlin",
+   "license": "Apache-2.0",
+   "stars": 19468,
+   "forks": 1435,
+   "createdAt": "2020-09-07T10:40:49Z",
+   "pushedAt": "2026-11-07T03:28:04Z",
+   "topics": [
+    "android",
+    "awt",
+    "compose",
+    "declarative-ui",
+    "desktop",
+    "gui",
+    "ios",
+    "javascript",
+    "kotlin",
+    "multiplatform",
+    "reactive",
+    "swing",
+    "ui",
+    "wasm",
+    "web"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "mobile",
+    "explanation": "Ein Werkzeug von JetBrains, um mit Kotlin Oberflächen für Android, iOS, Desktop und Web zu bauen. Vergleichbar mit Flutter für die Kotlin-Welt.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.242Z"
+   }
+  },
+  {
+   "id": "wazuh/wazuh",
+   "url": "https://github.com/wazuh/wazuh",
+   "homepage": "https://wazuh.com/",
+   "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
+   "language": "C++",
+   "license": "NOASSERTION",
+   "stars": 17608,
+   "forks": 2594,
+   "createdAt": "2015-08-11T17:39:03Z",
+   "pushedAt": "2026-11-07T13:13:18Z",
+   "topics": [
+    "cloud-security",
+    "compliance",
+    "configuration-assessement",
+    "container-security",
+    "cybersecurity",
+    "file-integrity-monitoring",
+    "incident-response",
+    "infosec",
+    "log-analysis",
+    "malware-detection",
+    "pci-dss",
+    "security",
+    "security-audit",
+    "security-automation",
+    "security-hardening"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Eine Sicherheitsplattform, die Server und Rechner überwacht und bei Angriffen Alarm schlägt. Vergleichbar mit einer Alarmanlage für die IT.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:14.455Z"
+   }
+  },
+  {
+   "id": "ionic-team/capacitor",
+   "url": "https://github.com/ionic-team/capacitor",
+   "homepage": "https://capacitorjs.com",
+   "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️",
+   "language": "TypeScript",
+   "license": "MIT",
+   "stars": 17045,
+   "forks": 1313,
+   "createdAt": "2017-11-18T21:38:09Z",
+   "pushedAt": "2026-11-06T11:09:59Z",
+   "topics": [
+    "android",
+    "capacitor",
+    "cordova",
+    "cross-platform",
+    "css",
+    "html",
+    "ionic",
+    "ios",
+    "java",
+    "javascript",
+    "pwa",
+    "swift"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "mobile",
+    "explanation": "Eine Brücke, mit der Web-Apps als native Apps in App Store und Play Store landen. Vergleichbar mit einer Verpackung, die Websites zu Apps macht.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:15.314Z"
+   }
+  },
+  {
+   "id": "crowdsecurity/crowdsec",
+   "url": "https://github.com/crowdsecurity/crowdsec",
+   "homepage": "https://docs.crowdsec.net",
+   "description": "Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of malicious IPs.",
+   "language": "Go",
+   "license": "MIT",
+   "stars": 15497,
+   "forks": 756,
+   "createdAt": "2020-05-15T09:38:05Z",
+   "pushedAt": "2026-11-06T14:54:44Z",
+   "topics": [
+    "anti-bot",
+    "blocklist",
+    "bot-detection",
+    "bot-protection",
+    "cybersecurity",
+    "docker",
+    "firewall",
+    "ids-ips",
+    "intrusion-detection",
+    "intrusion-prevention",
+    "kubernetes",
+    "modsecurity",
+    "security",
+    "threat-intelligence",
+    "waap"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "security",
+    "explanation": "Eine Software, die Angreifer erkennt und Informationen darüber mit einer Community teilt, um sie gemeinsam zu blockieren. Vergleichbar mit einer digitalen Nachbarschaftswache.",
+    "source": "curated",
+    "install": {
+     "manager": "go",
+     "command": "go get github.com/crowdsecurity/crowdsec@latest",
+     "manifest": "go.mod",
+     "verified": true
+    },
+    "enrichedAt": "2026-11-07T21:57:14.462Z"
+   }
+  },
+  {
+   "id": "dbt-labs/dbt",
+   "url": "https://github.com/dbt-labs/dbt",
+   "homepage": "https://getdbt.com",
+   "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+   "language": "Rust",
+   "license": "Apache-2.0",
+   "stars": 14130,
+   "forks": 2665,
+   "createdAt": "2016-03-10T02:38:00Z",
+   "pushedAt": "2026-11-07T12:01:23Z",
+   "topics": [
+    "analytics",
+    "business-intelligence",
+    "data-modeling",
+    "dbt-viewpoint",
+    "elt",
+    "pypa",
+    "slack"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "data",
+    "explanation": "Ein Werkzeug, mit dem Datenteams Auswertungen als nachvollziehbaren Code pflegen. Vergleichbar mit einem Rezeptbuch für Datentabellen.",
+    "source": "curated",
+    "install": {
+     "manager": "cargo",
+     "command": "cargo install --git https://github.com/dbt-labs/dbt",
+     "manifest": "Cargo.toml",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:15.052Z"
+   }
+  },
+  {
+   "id": "luanti-org/luanti",
+   "url": "https://github.com/luanti-org/luanti",
+   "homepage": "https://www.luanti.org/",
+   "description": "Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
+   "language": "C++",
+   "license": "NOASSERTION",
+   "stars": 13828,
+   "forks": 2521,
+   "createdAt": "2011-08-07T13:48:36Z",
+   "pushedAt": "2026-11-07T13:49:16Z",
+   "topics": [
+    "c-plus-plus",
+    "cpp17",
+    "game-engine",
+    "lua",
+    "luanti",
+    "minetest",
+    "voxel",
+    "voxel-engine"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Ein offenes Voxel-Spiel und eine Spiele-Engine, in der man Welten aus Blöcken baut. Vergleichbar mit Minecraft, nur frei und modbar.",
+    "source": "curated",
+    "install": {
+     "manager": "docker",
+     "command": "docker build -t luanti https://github.com/luanti-org/luanti.git",
+     "manifest": "Dockerfile",
+     "verified": false
+    },
+    "enrichedAt": "2026-11-07T21:57:15.918Z"
+   }
+  },
+  {
+   "id": "love2d/love",
+   "url": "https://github.com/love2d/love",
+   "homepage": "https://love2d.org",
+   "description": "LÖVE is an awesome 2D game framework for Lua.",
+   "language": "C++",
+   "license": "NOASSERTION",
+   "stars": 8912,
+   "forks": 663,
+   "createdAt": "2019-05-25T18:43:48Z",
+   "pushedAt": "2026-11-05T02:51:49Z",
+   "topics": [
+    "game-development",
+    "gamedev",
+    "love2d",
+    "lua",
+    "luajit"
+   ],
+   "archived": false,
+   "growth": {
+    "24h": null,
+    "7d": null,
+    "30d": null
+   },
+   "enrichment": {
+    "category": "games",
+    "explanation": "Ein leichtgewichtiges Framework, um 2D-Spiele in der Skriptsprache Lua zu bauen. Vergleichbar mit einem Skizzenblock für Spieleentwickler.",
+    "source": "curated",
+    "install": null,
+    "enrichedAt": "2026-11-07T21:57:16.247Z"
+   }
+  }
+ ]
+}
