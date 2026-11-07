@@ -1,0 +1,29 @@
+# Hourly refresh trigger (Vercel Hobby only allows a daily cron).
+# Setup: Repository → Settings → Secrets and variables → Actions
+#   Secret   CRON_SECRET   = same value as the CRON_SECRET env var in Vercel
+#   Variable UNIVERSE_URL  = production URL, e.g. https://gitgreat.vercel.app
+# Without both, the job skips itself.
+name: Refresh universe
+
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Trigger /api/cron/refresh
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          UNIVERSE_URL: ${{ vars.UNIVERSE_URL }}
+        run: |
+          if [ -z "$CRON_SECRET" ] || [ -z "$UNIVERSE_URL" ]; then
+            echo "CRON_SECRET or UNIVERSE_URL not configured – skipping."
+            exit 0
+          fi
+          curl -fsS --max-time 320 -H "Authorization: Bearer $CRON_SECRET" "$UNIVERSE_URL/api/cron/refresh"

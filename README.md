@@ -88,10 +88,10 @@ Die Ampel bewertet vier Signale:
    - `GITHUB_TOKEN`: ein Fine-grained Token ohne zusätzliche Rechte genügt, da nur öffentliche Daten gelesen werden.
    - `CRON_SECRET`: eine lange Zufallszeichenkette.
    - `ANTHROPIC_API_KEY` (optional).
-4. Deployen. Der Cron-Job ist in `vercel.json` hinterlegt (`7 * * * *`, also stündlich).
-   > **Wichtig:** Vercel **Hobby** erlaubt nur *tägliche* Cron-Jobs und lehnt einen stündlichen Zeitplan ab. Dann gibt es zwei Möglichkeiten:
-   > - Den Zeitplan auf `7 3 * * *` ändern und stündlich extern triggern, zum Beispiel per GitHub-Actions-Schedule mit dem `curl`-Aufruf unten.
-   > - Den Pro-Plan nutzen.
+4. Deployen. Aktualisiert wird auf zwei Wegen:
+   - **Vercel Cron** (`vercel.json`, täglich um 04:17 UTC): Vercel **Hobby** erlaubt nur tägliche Cron-Jobs.
+   - **GitHub Action** `.github/workflows/refresh.yml` (stündlich): Dafür unter *Settings → Secrets and variables → Actions* das Secret `CRON_SECRET` (gleicher Wert wie in Vercel) und die Variable `UNIVERSE_URL` (Produktions-URL) anlegen. Ohne diese beiden überspringt sich der Job.
+   - Auf dem Pro-Plan kann stattdessen der Vercel-Cron auf `7 * * * *` gestellt werden.
 5. Den ersten Snapshot sofort erzeugen, statt auf den Cron zu warten:
 
    ```bash

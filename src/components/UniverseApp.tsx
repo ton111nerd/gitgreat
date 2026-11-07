@@ -133,7 +133,7 @@ export default function UniverseApp({ initial, initialState = {} }: { initial: U
   };
 
   const generated = Date.parse(shown.generatedAt);
-  const stale = now !== null && now - generated > 3 * 3600_000;
+  const stale = now !== null && now - generated > 26 * 3600_000; // daily cron on Hobby + hourly GitHub Action
   const updatedLabel =
     shown.source === "fallback"
       ? `Offline-Daten · Stand ${formatDate(shown.generatedAt)}`
