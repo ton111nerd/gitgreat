@@ -1,52 +1,58 @@
-"use client";
-
-import { useState } from "react";
 import { PERIOD_LABELS, type Period } from "@/lib/types";
 
-export default function Legend({ period, hasGrowth }: { period: Period; hasGrowth: boolean }) {
-  const [open, setOpen] = useState(true);
+interface Props {
+  period: Period;
+  hasGrowth: boolean;
+  status: string;
+  live: boolean;
+  stale: boolean;
+}
+
+/** Always-visible key for the visual encoding, plus the data freshness line. */
+export default function Legend({ period, hasGrowth, status, live, stale }: Props) {
   return (
-    <aside className={`legend${open ? "" : " collapsed"}`} aria-label="Legende">
-      <button type="button" className="legend-toggle" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
-        <span>So liest du das Universum</span>
-        <span aria-hidden="true">{open ? "–" : "+"}</span>
-      </button>
+    <aside className="legend glass" aria-label="Legende">
       <ul>
         <li>
-          <svg width="30" height="18" viewBox="0 0 30 18" aria-hidden="true">
-            <circle cx="9" cy="9" r="7" fill="none" stroke="currentColor" strokeDasharray="2 2" opacity=".6" />
-            <circle cx="22" cy="9" r="6" fill="none" stroke="currentColor" strokeDasharray="2 2" opacity=".6" />
+          <svg width="34" height="20" viewBox="0 0 34 20" aria-hidden="true">
+            <circle cx="9" cy="10" r="7" fill="#b28cff" opacity=".85" />
+            <circle cx="24" cy="10" r="7" fill="#4fd1c5" opacity=".85" />
           </svg>
           <span>
-            <b>Galaxie &amp; Farbe</b> = Kategorie
+            <b>Farbe</b> Bereich
           </span>
         </li>
         <li>
-          <svg width="30" height="18" viewBox="0 0 30 18" aria-hidden="true">
-            <circle cx="5" cy="11" r="3" fill="#a9b4c9" />
-            <circle cx="20" cy="9" r="8" fill="#a9b4c9" />
+          <svg width="34" height="20" viewBox="0 0 34 20" aria-hidden="true">
+            <circle cx="5" cy="13" r="2.5" fill="#c3c9de" />
+            <circle cx="14" cy="11" r="5" fill="#c3c9de" />
+            <circle cx="27" cy="10" r="7.1" fill="#c3c9de" />
           </svg>
           <span>
-            <b>Größe</b> = Stars gesamt
+            <b>Fläche</b> Stars gesamt
           </span>
         </li>
         <li>
-          <svg width="30" height="18" viewBox="0 0 30 18" aria-hidden="true">
+          <svg width="34" height="20" viewBox="0 0 34 20" aria-hidden="true">
             <defs>
               <radialGradient id="lg-glow">
-                <stop offset="0" stopColor="#b28cff" stopOpacity=".9" />
-                <stop offset="1" stopColor="#b28cff" stopOpacity="0" />
+                <stop offset="0.3" stopColor="#ffe9b0" stopOpacity=".95" />
+                <stop offset="1" stopColor="#ffb454" stopOpacity="0" />
               </radialGradient>
             </defs>
-            <circle cx="6" cy="9" r="4" fill="#b28cff" opacity=".7" />
-            <circle cx="21" cy="9" r="9" fill="url(#lg-glow)" />
-            <circle cx="21" cy="9" r="4" fill="#b28cff" />
+            <circle cx="8" cy="10" r="3.5" fill="#ffb454" opacity=".6" />
+            <circle cx="24" cy="10" r="10" fill="url(#lg-glow)" />
+            <circle cx="24" cy="10" r="3.5" fill="#ffb454" />
           </svg>
           <span>
-            <b>Leuchten</b> = {hasGrowth ? `neue Stars in ${PERIOD_LABELS[period]}` : "Wachstum (gerade keine Daten)"}
+            <b>Leuchten</b> {hasGrowth ? `Wachstum · ${PERIOD_LABELS[period]}` : "Wachstum (keine Daten)"}
           </span>
         </li>
       </ul>
+      <p className={`legend-status${stale ? " stale" : ""}`} aria-live="polite">
+        <span className={`pulse${live && !stale ? " live" : ""}`} aria-hidden="true" />
+        {status}
+      </p>
     </aside>
   );
 }

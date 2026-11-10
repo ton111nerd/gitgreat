@@ -10,7 +10,7 @@
 import { CATEGORIES } from "./categories";
 import type { CategoryId } from "./types";
 
-const PLANET_PX = 176; // sphere diameter in the sprite
+const PLANET_PX = 232; // sphere diameter in the sprite
 export const PLANET_PAD = 0.32; // halo margin relative to radius
 export const VARIANTS = 4;
 
@@ -213,7 +213,23 @@ export function nebulaSprite(category: CategoryId): HTMLCanvasElement {
   return s;
 }
 
-/** Renders a planet to a data URL – used for static images on the landing page. */
-export function planetDataUrl(category: CategoryId, variant = 0): string {
-  return planetSprite(category, variant).toDataURL("image/png");
+/**
+ * Pre-renders all sprites in small chunks (one per macrotask) so the first frame
+ * of the fly-in does not stall. Resolves when everything is cached.
+ */
+export function warmSprites(categories: CategoryId[]): Promise<void> {
+  const jobs: Array<() => void> = [];
+  for (const c of categories) {
+    jobs.push(() => nebulaSprite(c));
+    for (let v = 0; v < VARIANTS; v++) jobs.push(() => planetSprite(c, v));
+  }
+  return new Promise((resolve) => {
+    const next = () => {
+      const job = jobs.shift();
+      if (!job) return resolve();
+      job();
+      setTimeout(next, 0);
+    };
+    next();
+  });
 }

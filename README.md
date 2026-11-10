@@ -4,27 +4,26 @@ Aktuell trendende GitHub-Repositories als erkundbares Weltall. Die Seite richtet
 
 | Visuell | Bedeutung |
 | --- | --- |
-| Galaxie / Farbe | Kategorie (KI/LLM, DevTools, Web, Security, Data, Mobile, Infra, Games, Sonstiges) |
-| Planetengröße | Stars gesamt (logarithmisch) |
+| Galaxie / Farbe | Bereich (KI/LLM, DevTools, Web, Security, Data, Mobile, Infra, Games, Sonstiges) |
+| Planetenfläche | Stars gesamt, **proportional** (Radius ∝ √Stars): viermal so viele Stars = viermal so viel Fläche |
 | Leuchten | Star-Wachstum im gewählten Zeitraum (24 h / 7 Tage / 30 Tage) |
 
-Aufbau:
+Die Seite startet direkt im Weltall: Beim Aufruf fliegt die Kamera von weit draußen auf das Universum zu, danach blenden sich die Bedienelemente ein. Deep-Links (`?repo=`, `?cat=`, `?q=`) überspringen den Einflug.
 
-- **`/` Landingpage:** Echtzeit-WebGL-Weltall mit prozeduralem Nebel, Milchstraßenband, Sternen in mehreren Parallax-Ebenen und einem Planeten mit Atmosphäre, dazu die aktuellen Aufsteiger, Kennzahlen und die neun Galaxien.
-- **`/explore` Explorer:** die interaktive Karte. Planeten und Galaxie-Nebel sind prozedural schattierte Sprites (Wolkenbänder, Tag-Nacht-Grenze, Atmosphärensaum), der WebGL-Hintergrund folgt dem Verschieben mit Parallax.
+Funktionen:
 
-Funktionen im Explorer:
-
-- **Weltall-Ansicht:** Zoom und Pan per Maus, Trackpad und Touch. Beim Hovern erscheinen Name und Kurzinfo.
+- **Weltall-Ansicht:** Zoom und Pan per Maus, Trackpad und Touch. Beim Hovern erscheinen Name und Kurzinfo. Große Planeten tragen Name und Star-Zahl direkt auf der Oberfläche.
+- **Bereiche:** Die Leiste links fliegt in eine Galaxie und blendet den Rest ab. Sie markiert außerdem, in welcher Galaxie man sich gerade befindet.
+- **Suche** mit Vorschlägen, dazu ein Sprachfilter.
 - **Listen-Ansicht:** sortierbar nach Stars, Wachstum und Name.
-- **Filter:** Suche, Kategorie und Sprache.
 - **Detail-Panel:** Seitenleiste am Desktop, Bottom-Sheet am Handy. Es enthält:
   - eine Erklärung in einfacher Sprache
   - einen Technik-Block
   - eine Vertrauens-Ampel
   - einen kopierbaren Install-Befehl
   - Links zu Codespaces, GitHub und der Website
-- **Teilbare URLs:** zum Beispiel `/explore?period=24h&view=list&repo=ollama/ollama` oder `/explore?cat=ai`.
+- **Teilbare URLs:** zum Beispiel `/?period=24h&view=list&repo=ollama/ollama` oder `/?cat=ai`. Alte `/explore`-Links werden weitergeleitet.
+- **Darstellung:** WebGL-Hintergrund (Nebel, Milchstraßenband, Sterne in vier Tiefenebenen, die beim Zoomen und Verschieben mitziehen), Planeten und Galaxie-Nebel als prozedural schattierte Sprites.
 
 ## Architektur
 
@@ -129,7 +128,7 @@ Ohne Snapshot zeigt die Seite `data/fallback.json`.
 npm test
 ```
 
-Führt 38 Unit-Tests aus (Pipeline, Wachstum, Install, Ampel, LLM-Parsing, Cron-Auth).
+Führt 42 Unit-Tests aus (Pipeline, Wachstum, Install, Ampel, Layout, LLM-Parsing, Cron-Auth).
 
 ```bash
 npm run lint && npm run typecheck
@@ -150,13 +149,11 @@ Baut `data/fallback.json` neu, auf Basis von `data/fallback-seed.json`.
 ## Projektstruktur
 
 ```
-src/app/page.tsx                  Landingpage (statisch, aus dem Snapshot, 5 min revalidiert)
-src/app/explore/page.tsx          Explorer (liest Snapshot, Zustand aus URL)
+src/app/page.tsx                  Das Universum (liest Snapshot, Zustand aus URL)
 src/app/api/universe/route.ts     GET /api/universe?period=…
 src/app/api/cron/refresh/route.ts Stündlicher Refresh (CRON_SECRET-geschützt)
 src/components/                   UniverseApp, SpaceCanvas (Canvas + d3-zoom), RepoList, DetailPanel, Legend
 src/components/space/             SpaceBackdrop (WebGL-Weltall)
-src/components/landing/           Bausteine der Landingpage
 src/lib/sprites.ts                Prozedurale Planeten- und Nebel-Sprites
 src/lib/server/                   pipeline, github (GraphQL), enrich (Claude), registry, store (Blob/Datei), universe
 src/lib/                          types, categories, growth, install, trust, select, layout, format
