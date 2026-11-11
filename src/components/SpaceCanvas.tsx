@@ -105,6 +105,7 @@ export default function SpaceCanvas({
   const fitKRef = useRef(1);
   const galaxyRef = useRef<CategoryId | null>(null);
   const fontRef = useRef('system-ui, -apple-system, "Segoe UI", Roboto, sans-serif');
+  const displayFontRef = useRef('Georgia, "Times New Roman", serif');
   const [tip, setTip] = useState<Tip | null>(null);
   const [ready, setReady] = useState(false);
 
@@ -203,6 +204,7 @@ export default function SpaceCanvas({
     ctx.textBaseline = "alphabetic";
     ctx.lineJoin = "round";
     const font = fontRef.current;
+    const display = displayFontRef.current;
     const spacing = (v: string) => {
       if ("letterSpacing" in ctx) (ctx as CanvasRenderingContext2D & { letterSpacing: string }).letterSpacing = v;
     };
@@ -220,23 +222,24 @@ export default function SpaceCanvas({
       const cat = CATEGORY_BY_ID[g.id];
       const dim = filterActive && !g.planets.some((p) => isMatch(p.repo.id));
       ctx.globalAlpha = alpha * (dim ? 0.3 : 1);
-      const size = Math.max(11, Math.min(15, screenR / 9));
-      ctx.font = `600 ${size}px ${font}`;
-      spacing("0.16em");
-      const title = cat.label.toUpperCase();
-      const tw = ctx.measureText(title).width;
-      ctx.lineWidth = 4;
-      ctx.strokeStyle = "rgba(2,3,10,0.75)";
-      ctx.strokeText(title, sx, sy - 16);
-      ctx.fillStyle = glowColor(cat.color, 1, 0.45);
-      ctx.fillText(title, sx, sy - 16);
+      const size = Math.max(17, Math.min(26, screenR / 6));
+      ctx.font = `italic 400 ${size}px ${display}`;
       spacing("0px");
+      const title = cat.label;
+      const tw = ctx.measureText(title).width;
+      ctx.shadowColor = "rgba(2,3,10,0.9)";
+      ctx.shadowBlur = 10;
+      ctx.fillStyle = glowColor(cat.color, 1, 0.62);
+      ctx.fillText(title, sx, sy - 18);
       ctx.font = `500 11px ${font}`;
+      spacing("0.02em");
       const sub = `${g.planets.length} Repos`;
-      ctx.strokeText(sub, sx, sy - 1);
-      ctx.fillStyle = "rgba(190,197,222,0.75)";
-      ctx.fillText(sub, sx, sy - 1);
-      placed.push([sx - tw / 2 - 6, sy - 32, sx + tw / 2 + 6, sy + 4]);
+      ctx.fillStyle = "rgba(237,235,228,0.55)";
+      ctx.fillText(sub, sx, sy - 2);
+      spacing("0px");
+      ctx.shadowBlur = 0;
+      ctx.shadowColor = "transparent";
+      placed.push([sx - tw / 2 - 6, sy - 18 - size, sx + tw / 2 + 6, sy + 4]);
     }
     ctx.globalAlpha = 1;
 
@@ -278,14 +281,14 @@ export default function SpaceCanvas({
       ctx.lineWidth = fits ? 3.5 : 3;
       ctx.strokeStyle = fits ? "rgba(2,3,10,0.55)" : "rgba(2,3,10,0.85)";
       ctx.strokeText(text, sx, ty);
-      ctx.fillStyle = "rgba(244,246,255,0.95)";
+      ctx.fillStyle = "rgba(240,238,231,0.96)";
       ctx.fillText(text, sx, ty);
       if (fits) {
         const s2 = Math.max(10.5, size * 0.62);
         ctx.font = `500 ${s2}px ${font}`;
         const stars = `★ ${formatCompact(p.repo.stars)}`;
         ctx.strokeText(stars, sx, ty + s2 * 1.45);
-        ctx.fillStyle = "rgba(226,231,250,0.78)";
+        ctx.fillStyle = "rgba(243,214,150,0.9)";
         ctx.fillText(stars, sx, ty + s2 * 1.45);
       }
     }
@@ -458,6 +461,12 @@ export default function SpaceCanvas({
     Promise.all([warmSprites(cats), sized, document.fonts?.ready]).then(() => {
       if (cancelled || readyRef.current) return;
       fontRef.current = getComputedStyle(canvasRef.current!).fontFamily || fontRef.current;
+      const disp = getComputedStyle(document.documentElement).getPropertyValue("--font-display").trim();
+      if (disp) {
+        displayFontRef.current = `${disp}, ${displayFontRef.current}`;
+        // the italic cut is only used on canvas, so the browser won't fetch it on its own
+        document.fonts?.load(`italic 20px ${disp}`).then(() => (dirtyRef.current = true), () => {});
+      }
       fitKRef.current = fitAll().k;
       const { layout, selectedId, reducedMotion } = propsRef.current;
       const planet = selectedId ? layout.planets.find((p) => p.repo.id === selectedId) : null;

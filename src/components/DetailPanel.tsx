@@ -100,43 +100,43 @@ export default function DetailPanel({ repo, period, now, onClose }: Props) {
       </div>
 
       <header className="panel-head">
-        <div>
-          <span className="chip chip-static" style={{ ["--c" as string]: cat.color }}>
-            <span className="dot" />
-            {cat.label}
-          </span>
-          <h2 id="panel-title">
-            <span className="owner">{repo.owner}/</span>
-            {repo.name}
-          </h2>
-        </div>
+        <span className="chip" style={{ ["--c" as string]: cat.color }}>
+          <span className="dot" />
+          {cat.label}
+        </span>
         <button type="button" className="icon-btn" onClick={onClose} aria-label="Details schließen">
-          ✕
+          <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+            <path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+          </svg>
         </button>
       </header>
 
-      <section className="panel-section plain" aria-label="Einfach erklärt">
-        <h3>Einfach erklärt</h3>
+      <h2 id="panel-title" className="panel-title">
+        <span className="panel-owner">{repo.owner} /</span>
+        <span className="panel-name">{repo.name}</span>
+      </h2>
+
+      <p className="panel-figures">
+        <span className="fig">
+          <span className="fig-num">{formatNumber(repo.stars)}</span> Stars
+        </span>
+        <span className={`fig${repo.growth === null ? " fig-none" : " fig-growth"}`}>
+          {repo.growth === null ? "Wachstum: keine Daten" : formatGrowth(repo.growth, repo.growthMethod, period)}
+          {repo.growthMethod === "estimated" && " (hochgerechnet)"}
+        </span>
+      </p>
+
+      <section className="panel-section plain" aria-labelledby="sec-plain">
+        <h3 id="sec-plain">Einfach erklärt</h3>
         <p className="plain-text">{repo.explanation}</p>
         {repo.explanationSource === "keywords" && (
           <p className="muted small">Originalbeschreibung von GitHub – eine einfache Erklärung folgt beim nächsten Update.</p>
         )}
       </section>
 
-      <section className="panel-section" aria-label="Technische Details">
-        <h3>Technik</h3>
-        <dl className="stats">
-          <div>
-            <dt>Stars</dt>
-            <dd>★ {formatNumber(repo.stars)}</dd>
-          </div>
-          <div>
-            <dt>Wachstum</dt>
-            <dd className="accent">
-              {formatGrowth(repo.growth, repo.growthMethod, period)}
-              {repo.growthMethod === "estimated" && <span className="muted small"> (hochgerechnet)</span>}
-            </dd>
-          </div>
+      <section className="panel-section" aria-labelledby="sec-tech">
+        <h3 id="sec-tech">Technik</h3>
+        <dl className="facts">
           <div>
             <dt>Sprache</dt>
             <dd>{repo.language ?? "—"}</dd>
@@ -156,8 +156,8 @@ export default function DetailPanel({ repo, period, now, onClose }: Props) {
         </dl>
       </section>
 
-      <section className="panel-section" aria-label="Vertrauens-Ampel">
-        <h3>Vertrauens-Ampel</h3>
+      <section className="panel-section" aria-labelledby="sec-trust">
+        <h3 id="sec-trust">Vertrauens-Ampel</h3>
         <div className={`trust trust-${t.level}`}>
           <div className="lights" aria-hidden="true">
             <span className={t.level === "red" ? "on" : ""} />
@@ -171,7 +171,7 @@ export default function DetailPanel({ repo, period, now, onClose }: Props) {
         </div>
         {t.unusualPopularity && (
           <p className="warning" role="note">
-            ⚠ Popularität ungewöhnlich: sehr viele Stars bei auffällig wenigen Forks. Stars können gekauft sein – Repo besonders gründlich prüfen.
+            Popularität ungewöhnlich: sehr viele Stars bei auffällig wenigen Forks. Stars können gekauft sein – Repo besonders gründlich prüfen.
           </p>
         )}
         <ul className="signals">
@@ -189,8 +189,8 @@ export default function DetailPanel({ repo, period, now, onClose }: Props) {
       </section>
 
       {repo.install && (
-        <section className="panel-section" aria-label="Installieren">
-          <h3>Installieren</h3>
+        <section className="panel-section" aria-labelledby="sec-install">
+          <h3 id="sec-install">Installieren</h3>
           <div className="cmd">
             <code>{repo.install.command}</code>
             <CopyButton text={repo.install.command} />
@@ -207,7 +207,7 @@ export default function DetailPanel({ repo, period, now, onClose }: Props) {
       )}
 
       <p className="security-note" role="note">
-        🛡 Prüfe Repos vor der Installation. Diese Seite führt nie Code aus – Befehle werden nur zum Kopieren angezeigt.
+        Prüfe Repos vor der Installation. Diese Seite führt nie Code aus – Befehle werden nur zum Kopieren angezeigt.
       </p>
 
       <div className="actions">
